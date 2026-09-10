@@ -11,7 +11,7 @@ Engenheiro de Software Fullstack Sênior com **5+ anos de experiência comprovad
 
 Histórico consistente em liderança técnica e mentoria de equipes (6 a 8 desenvolvedores), implementação de esteiras de CI/CD automatizadas (Azure DevOps/AWS) e otimização de performance (reduções de até 66% em tempo de build e 40% em tempo de resposta de banco). Forte vivência na adoção de boas práticas de engenharia: Clean Architecture, DDD, SOLID, Design Patterns e testes automatizados. Na vanguarda da tecnologia, dedica o período recente ao aprofundamento prático em **IA Generativa (Google Antigravity, GitHub Copilot)** aplicada ao ciclo de desenvolvimento de software.
 
-**Principais Competências:** .NET 6/7/8 · C# · ASP.NET Core · Angular 13/17 · React · TypeScript · Python · Entity Framework Core · SQL Server · Azure DevOps · CI/CD · REST APIs · Clean Architecture · DDD · Testes Automatizados · IA Generativa Aplicada
+**Principais Competências:** .NET 6/7/8 · C# · ASP.NET Core · Angular 13/17 · React (Vite) · TypeScript · Python · Entity Framework Core · SQL Server · Azure DevOps · CI/CD · REST APIs · Clean Architecture · DDD · Testes Automatizados · IA Generativa Aplicada
 
 ---
 
@@ -20,11 +20,11 @@ Histórico consistente em liderança técnica e mentoria de equipes (6 a 8 desen
 ### Desenvolvedor de Software — Projetos Próprios & IA Generativa
 **Mar 2025 – Atual** | Lages, SC
 - Período dedicado a estudos avançados e ao desenvolvimento de projetos autorais com foco em automação e integração de IA Generativa.
-- Concepção e desenvolvimento do sistema **Arthos**, estruturando serviços backend e interfaces web modernas.
-- Desenvolvimento de **extensão de navegador** (Chrome Extension) para automação web e gestão dinâmica de cookies e sessões.
+- Desenvolvimento de landing page de alta conversão para vendas, utilizando **React e Vite**, com foco em alta performance, responsividade e SEO.
+- Desenvolvimento de **extensão de navegador** (Chrome Extension) voltada para automação web e gestão dinâmica de cookies e sessões.
 - Implementação de módulo em **Python** para processamento automatizado, extração e leitura de dados de livros e documentos digitais.
 - Aprofundamento prático em fluxos de trabalho assistidos por IA (**Google Antigravity e GitHub Copilot**), aplicando prototipagem rápida, aceleradores de código e automações em todas as fases do desenvolvimento.
-*Stack: C#, .NET, Python, Angular, TypeScript, Chrome Extensions, Google Antigravity, GitHub Copilot.*
+*Stack: React, Vite, Python, Chrome Extensions, C#, TypeScript, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)
@@ -81,7 +81,7 @@ Histórico consistente em liderança técnica e mentoria de equipes (6 a 8 desen
 
 - **Linguagens:** C#, TypeScript, JavaScript, Python, SQL, PHP.
 - **Backend & Frameworks:** .NET Core, .NET 6/7/8, .NET Framework, ASP.NET Core, Entity Framework Core, Hangfire, SignalR, OpenIddict, IdentityServer, RESTful APIs, Microservices.
-- **Frontend:** Angular (v13/v17), React, TypeScript, RxJS, HTML5, CSS3/SASS, Kendo UI, Razor Pages.
+- **Frontend:** Angular (v13/v17), React (Vite), TypeScript, RxJS, HTML5, CSS3/SASS, Kendo UI, Razor Pages.
 - **Bancos de Dados & Caching:** SQL Server (T-SQL avançado, Tuning, Stored Procedures), PostgreSQL, Azure Cosmos DB, Redis.
 - **DevOps, Nuvem & Ferramentas:** Azure DevOps (Pipelines CI/CD), AWS (EC2, S3, CodeCommit), Docker, Git, Application Insights, Postman, Linux VMs.
 - **Engenharia de Software:** Clean Architecture, Domain-Driven Design (DDD), SOLID, Design Patterns, Multi-tenant Architecture, Code Review, Mentoria Técnica.

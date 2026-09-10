@@ -20,11 +20,11 @@ Experiência prática no desenvolvimento de testes ponta a ponta (E2E) com **Sel
 ### Desenvolvedor de Software — Projetos Próprios & IA Generativa
 **Mar 2025 – Atual** | Lages, SC
 - Período dedicado a estudos avançados de engenharia de software e ao desenvolvimento de projetos autorais com foco em automação.
-- Concepção e desenvolvimento do ecossistema **Arthos**, criando suítes de validação de serviços backend e integrações de dados.
-- Desenvolvimento de **extensão de navegador** (Chrome Extension) voltada para automação de tarefas web e manipulação de cookies/sessões.
+- Desenvolvimento de landing page de vendas em **React + Vite**, estruturando validações de formulários, testes funcionais e responsividade.
+- Desenvolvimento de **extensão de navegador** (Chrome Extension) voltada para automação de tarefas web e manipulação de cookies e sessões.
 - Implementação de scripts em **Python** para processamento automatizado, extração e validação de dados a partir de livros e textos digitais.
-- Utilização de ferramentas de IA Generativa (**Google Antigravity e GitHub Copilot**) para sintetização de massas de dados de teste (*mock data*) e geração acelerada de testes de integração e unitários.
-*Stack: C#, Python, Chrome Extensions, Postman, Google Antigravity, GitHub Copilot.*
+- Utilização de ferramentas de IA Generativa (**Google Antigravity e GitHub Copilot**) para sintetização de massas de dados de teste (*mock data*) e geração acelerada de testes.
+*Stack: React, Vite, Python, Chrome Extensions, Postman, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)

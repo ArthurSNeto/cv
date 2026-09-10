@@ -20,11 +20,11 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 ### Desenvolvedor de Software — Projetos Próprios & IA Generativa
 **Mar 2025 – Atual** | Lages, SC
 - Período dedicado a estudos avançados e ao desenvolvimento de projetos autorais de software com aplicação de IA Generativa.
-- Concepção e desenvolvimento do sistema **Arthos**, estruturando serviços backend em C# / .NET e integrações de dados.
+- Desenvolvimento de landing page de vendas com **React e Vite**, focando em alta performance e integração com serviços modernos.
 - Desenvolvimento de **extensão de navegador** (Chrome Extension) voltada para automação web e gestão dinâmica de sessões e cookies.
 - Criação de scripts e módulos em **Python** para processamento automatizado, leitura e extração de conteúdo de livros e documentos digitais.
 - Utilização intensiva de ferramentas de IA Generativa (**Google Antigravity e GitHub Copilot**) para acelerar o ciclo de desenvolvimento, prototipagem de soluções e testes de código.
-*Stack: C#, .NET, Python, Chrome Extensions, Google Antigravity, GitHub Copilot.*
+*Stack: React, Vite, Python, C#, Chrome Extensions, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)

@@ -11,7 +11,7 @@ Engenheiro de Software Frontend Sênior com **5+ anos de experiência comprovada
 
 Sólida base em engenharia de software e backend (.NET/C#), assegurando integração perfeita com APIs RESTful, contratos Swagger/OpenAPI, tratamento seguro de autenticação (OAuth2/JWT via interceptors) e diagnóstico de ponta a ponta. Histórico consistente em mentoria de desenvolvedores (6 a 8 devs), automação de testes e esteiras de CI/CD automatizadas (Azure DevOps). Na vanguarda técnica, dedica o período recente ao aprofundamento prático em ferramentas de **IA Generativa (Google Antigravity, GitHub Copilot)** para prototipagem e desenvolvimento de interfaces e automações.
 
-**Principais Competências:** Angular (v13/v17) · TypeScript · JavaScript (ES6+) · RxJS · Gestão de Estado · HTML5 / SCSS · Kendo UI · Reactive Forms · Consumo de REST APIs · HTTP Interceptors · React · CI/CD (Azure DevOps) · Testes de UI & Integração · IA Generativa Aplicada
+**Principais Competências:** Angular (v13/v17) · TypeScript · JavaScript (ES6+) · RxJS · Gestão de Estado · HTML5 / SCSS · Kendo UI · Reactive Forms · Consumo de REST APIs · HTTP Interceptors · React (Vite) · CI/CD (Azure DevOps) · Testes de UI & Integração · IA Generativa Aplicada
 
 ---
 
@@ -20,11 +20,11 @@ Sólida base em engenharia de software e backend (.NET/C#), assegurando integra�
 ### Desenvolvedor de Software — Projetos Próprios & IA Generativa
 **Mar 2025 – Atual** | Lages, SC
 - Período dedicado a estudos avançados e ao desenvolvimento de projetos autorais de software com foco em automação e integração de IA.
-- Concepção e desenvolvimento do sistema **Arthos**, estruturando interfaces web modernas em Angular e serviços de dados.
+- Desenvolvimento de landing page de alta conversão para vendas utilizando **React e Vite**, com foco em performance de renderização, responsividade e experiência do usuário (UX).
 - Desenvolvimento de **extensão de navegador** (Chrome Extension) para automação de tarefas web e gestão de sessões e cookies.
 - Implementação de módulo em **Python** para processamento automatizado, extração e leitura de conteúdos de livros digitais.
 - Aplicação prática de ferramentas avançadas de IA Generativa (**Google Antigravity e GitHub Copilot**) para prototipagem rápida de interfaces, refatoração de código e automação de rotinas de desenvolvimento.
-*Stack: Angular, TypeScript, Chrome Extensions, Python, C#, Google Antigravity, GitHub Copilot.*
+*Stack: React, Vite, Angular, TypeScript, Chrome Extensions, Python, C#, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)
@@ -79,7 +79,7 @@ Sólida base em engenharia de software e backend (.NET/C#), assegurando integra�
 - **Frontend Core:** Angular (v13 a v17), TypeScript, JavaScript (ES6+), RxJS, HTML5, CSS3, SASS/SCSS.
 - **Arquitetura Frontend:** Component-Based Architecture, Lazy Loading, Standalone Components, Reactive Forms, Route Guards, HTTP Interceptors, Gerenciamento Reativo de Estado.
 - **Bibliotecas de UI:** Telerik Kendo UI, Angular Material, Bootstrap, Tailwind CSS, Responsive Web Design.
-- **Outras Tecnologias Web:** React, Chrome Extensions, Webpack, NPM, consumo de APIs RESTful e WebSockets.
+- **Outras Tecnologias Web:** React (Vite), Chrome Extensions, Webpack, NPM, consumo de APIs RESTful e WebSockets.
 - **DevOps & Ferramentas:** Azure DevOps (Pipelines de CI/CD para Frontend), Git, GitHub, Postman, Chrome DevTools, Lighthouse.
 - **Testes & Qualidade:** Testes de Integração e E2E (Selenium), Jasmine, Karma, Code Review, Clean Code.
 - **Conhecimento Complementar (Backend):** C#, ASP.NET Core, Python, SQL Server (facilita alinhamento técnico com times de backend).
