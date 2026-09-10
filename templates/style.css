@@ -1,0 +1,240 @@
+/* Estilos Gerais & Impressão para Currículos ATS - Padrão Ouro 2 Páginas A4 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #0f172a;      /* Slate 900 */
+  --secondary-color: #0f766e;    /* Teal 700 */
+  --accent-color: #0284c7;       /* Sky 600 */
+  --text-color: #334155;         /* Slate 700 */
+  --text-muted: #64748b;         /* Slate 500 */
+  --border-color: #cbd5e1;       /* Slate 300 */
+  --bg-color: #f1f5f9;           /* Slate 100 */
+  --card-bg: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.35;
+  font-size: 9pt;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Barra de Navegação e Controles (Oculta na Impressão) */
+.toolbar {
+  position: sticky;
+  top: 0;
+  background-color: #0f172a;
+  color: #fff;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+
+.toolbar-title {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.select-version {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background-color: #1e293b;
+  color: #f8fafc;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+
+.select-version:focus {
+  border-color: #0d9488;
+}
+
+.btn-print {
+  background-color: #0d9488;
+  color: white;
+  border: none;
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s;
+}
+
+.btn-print:hover {
+  background-color: #0f766e;
+}
+
+/* Container A4 na Tela */
+.cv-container {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 16px auto 30px auto;
+  background-color: var(--card-bg);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 12mm 16mm;
+  border-radius: 4px;
+}
+
+/* Tipografia de Documento Renderizado a partir de Markdown */
+.cv-container h1 {
+  font-size: 20pt;
+  font-weight: 700;
+  color: var(--primary-color);
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.cv-container > p:first-of-type {
+  font-size: 10pt;
+  color: var(--secondary-color);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.cv-container hr {
+  border: none;
+  border-top: 1.5px solid var(--primary-color);
+  margin: 8px 0 10px 0;
+}
+
+.cv-container h2 {
+  font-size: 10.5pt;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.cv-container h3 {
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+.cv-container p {
+  font-size: 8.8pt;
+  line-height: 1.35;
+  color: var(--text-color);
+  text-align: justify;
+  margin-bottom: 4px;
+}
+
+.cv-container strong {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.cv-container em {
+  font-style: normal;
+  color: var(--text-muted);
+  font-size: 8.2pt;
+}
+
+.cv-container ul {
+  list-style-type: square;
+  padding-left: 18px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+
+.cv-container li {
+  font-size: 8.6pt;
+  line-height: 1.32;
+  margin-bottom: 2.5px;
+  text-align: justify;
+}
+
+.cv-container a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.cv-container a:hover {
+  text-decoration: underline;
+}
+
+/* Quebra de Página Suave e Controlada */
+.page-break {
+  page-break-before: always;
+  break-before: page;
+  margin-top: 10px;
+}
+
+/* Configurações de Impressão e Exportação para PDF */
+@media print {
+  body {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 8.8pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .cv-container {
+    width: 100% !important;
+    min-height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 10mm 12mm;
+  }
+
+  .page-break {
+    page-break-before: always !important;
+    break-before: page !important;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 { font-size: 18pt !important; }
+  h2 { font-size: 10pt !important; margin-top: 8px !important; }
+  h3 { font-size: 9.2pt !important; margin-top: 6px !important; page-break-after: avoid; }
+  p, li { font-size: 8.5pt !important; line-height: 1.3 !important; }
+  ul { page-break-inside: auto; }
+  li { page-break-inside: avoid; }
+
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+}

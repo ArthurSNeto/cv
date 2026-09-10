@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Arthur Santos Neto - Visualizador de Currículos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-break { page-break-before: always; break-before: page; }
+    @media print {
+      .page-break { page-break-before: always; break-before: page; }
+    }
+  </style>
+</head>
+<body>
+  <header class="toolbar no-print">
+    <div class="toolbar-title">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+      <span>Central de Currículos ATS (Padrão 2 Páginas A4)</span>
+    </div>
+    <div class="toolbar-actions">
+      <label for="versionSelect" style="font-size: 13px; color: #94a3b8;">Selecionar Versão:</label>
+      <select id="versionSelect" class="select-version" onchange="switchVersion(this.value)">
+        <option value="fullstack">1. Desenvolvedor Fullstack Sênior</option>
+        <option value="csharp">2. Desenvolvedor C# / .NET Sênior</option>
+        <option value="angular">3. Desenvolvedor Angular Sênior</option>
+        <option value="qa">4. QA Analyst Pleno</option>
+      </select>
+      <button class="btn-print" onclick="window.print()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        Salvar em PDF (Ctrl+P)
+      </button>
+    </div>
+  </header>
+
+  <div class="no-print" style="max-width: 210mm; margin: 12px auto -10px auto; background: #e0f2fe; border-left: 4px solid #0284c7; padding: 10px 14px; border-radius: 4px; font-size: 12px; color: #0369a1;">
+    💡 <strong>Dica de exportação para PDF perfeito:</strong> No menu de impressão do Chrome/Edge (Ctrl+P), selecione <em>Destino: Salvar como PDF</em>, <em>Tamanho do papel: A4</em>, <em>Margens: Mínimas ou Personalizadas</em> e marque <em>Gráficos de segundo plano</em>.
+  </div>
+
+  
+    <!-- Versão 1. Desenvolvedor Fullstack Sênior -->
+    <div id="cv-fullstack" class="cv-version-block" style="display: block;">
+      <div class="cv-container">
+        <h1>ARTHUR SANTOS NETO</h1>
+<p><strong>Desenvolvedor Fullstack Sênior | .NET Core &amp; Angular/React | Arquitetura de Software &amp; Cloud</strong><br />
+Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | arthursan.neto@gmail.com<br />
+<a href="https://linkedin.com/in/arthursneto">LinkedIn: linkedin.com/in/arthursneto</a> | <a href="https://github.com/ArthurSNeto">GitHub: github.com/ArthurSNeto</a></p>
+<hr />
+<h2>RESUMO PROFISSIONAL</h2>
+<p>Engenheiro de Software Fullstack Sênior com <strong>6+ anos de experiência</strong> no desenvolvimento de ponta a ponta de sistemas distribuídos de alta criticidade e escalabilidade. Especialista em ecossistema <strong>.NET (.NET Core, .NET 6/7/8)</strong> no backend e <strong>Angular / React</strong> no frontend, com sólida atuação em arquitetura de microsserviços, multi-tenancy, bancos relacionais (SQL Server) e NoSQL (Cosmos DB, Redis).</p>
+<p>Histórico comprovado em liderança técnica de equipes multidisciplinares (6 a 8 desenvolvedores), implementação de esteiras de CI/CD automatizadas (Azure DevOps/AWS) e otimização de performance (reduções de até 66% em tempo de build e 40% em tempo de resposta de banco). Forte vivência na adoção de boas práticas de engenharia: Clean Architecture, DDD, SOLID, Design Patterns e testes automatizados. Na vanguarda da tecnologia, integra ferramentas avançadas de <strong>IA Generativa (GitHub Copilot, Google Antigravity, agentes autônomos)</strong> ao ciclo de desenvolvimento, elevando a produtividade e a qualidade das entregas.</p>
+<p><strong>Principais Competências:</strong> .NET 6/7/8 · C# · ASP.NET Core · Angular 13+ · React · TypeScript · Entity Framework Core · SQL Server · Azure DevOps · CI/CD · REST APIs · Clean Architecture · DDD · Testes Automatizados (xUnit, NUnit, Selenium) · IA Generativa Aplicada ao Desenvolvimento</p>
+<hr />
+<h2>EXPERIÊNCIA PROFISSIONAL</h2>
+<h3>Engenheiro de Software Fullstack Independente — Consultoria &amp; Soluções com IA</h3>
+<p><strong>Mar 2025 – Atual</strong> | Lages, SC (Remoto)<br />
+- Concepção, arquitetura e entrega de aplicações web completas de ponta a ponta com backend em C# / .NET e interfaces responsivas modernas em Angular e TypeScript.<br />
+- Desenvolvimento de soluções sob medida incluindo extensões para navegadores, landing pages de alta conversão e módulos de integração com APIs externas.<br />
+- Implementação de fluxos de engenharia assistida por Inteligência Artificial Generativa (GitHub Copilot, Google Antigravity e agentes de automação como Hermes), otimizando em mais de 50% os ciclos de prototipagem, validação arquitetural e cobertura de testes.<br />
+- Prototipagem ágil com foco em padrões de escalabilidade, clean code e resiliência de software.<br />
+<em>Stack: C#, .NET 8, ASP.NET Core, Angular, TypeScript, Entity Framework Core, SQL Server, GitHub Copilot, Google Antigravity.</em></p>
+<h3>Desenvolvedor de Software Sênior — Positivo Tecnologia</h3>
+<p><strong>Out 2023 – Mar 2025 (1 ano 6 meses)</strong> | Curitiba, PR (Remoto)<br />
+- Atuação no núcleo técnico da plataforma educacional <em>Aprende Brasil</em>, atendendo mais de <strong>2.800 unidades municipais e 438 mil alunos</strong>.<br />
+- Arquitetura e implementação de novos módulos e serviços críticos em <strong>.NET 7</strong>, Entity Framework Core e SQL Server.<br />
+- Desenvolvimento de funcionalidade de ponta a ponta em <strong>React</strong> para suporte a professores na correção digital de provas por leitura, processamento e marcação interativa de imagens.<br />
+- Implementação de camada de segurança e autenticação robusta em aplicação legada PHP/Laravel e condução de deploy e configuração em ambiente de servidor Linux (VM), articulando com a infraestrutura a liberação de regras de firewall e integração com serviços externos.<br />
+- Otimização de stored procedures, views e índices em SQL Server, resultando em uma <strong>melhoria de 40% no tempo de resposta</strong> de relatórios e consultas analíticas.<br />
+- Reestruturação de infraestrutura de engenharia: migração e consolidação de repositórios AWS para <strong>Azure DevOps</strong>, criando pipelines de CI/CD automatizados que <strong>reduziram o tempo de build de 15 min para 5 min</strong> (66% de ganho de eficiência).<br />
+- Monitoramento de confiabilidade em produção via Application Insights e condução de code reviews e mentoria técnica para o time.<br />
+<em>Stack: .NET 7, ASP.NET Core, Entity Framework, SQL Server, React, Angular, PHP/Laravel, Azure DevOps, AWS CodeCommit, Hangfire, Git.</em></p>
+<h3>Desenvolvedor de Software Sênior (Tech Lead) — PrintWayy (Sistema Sunbird)</h3>
+<p><strong>Mai 2021 – Mar 2023 (1 ano 9 meses)</strong> | Remoto<br />
+- Liderança técnica e arquitetura do <em>Sunbird</em>, plataforma corporativa de bilhetagem e gestão de frotas de impressoras.<br />
+- Concepção da arquitetura fullstack do produto utilizando <strong>.NET 6</strong> no backend e <strong>Angular 13</strong> no frontend corporativo.<br />
+- Design e implementação de arquitetura <strong>multi-tenant</strong> resiliente com bancos de dados SQL Server segregados por cliente, desenvolvendo lógica de roteamento dinâmico de conexões baseado no contexto do usuário autenticado.<br />
+- Implementação centralizada de autenticação e autorização via Identity Server com OpenIddict (OAuth2 / OpenID Connect).<br />
+- Liderança técnica direta de equipe com <strong>6 a 8 desenvolvedores</strong>: condução de reuniões de alinhamento arquitetural, code review, entrevistas técnicas e mentoria de carreira.<br />
+- Configuração de pipelines de CI/CD no Azure DevOps para esteiras completas (dev, homologação e produção) e processamento assíncrono em larga escala com Hangfire.<br />
+<em>Stack: .NET 6, C#, Angular 13, TypeScript, SQL Server, Identity Server, OpenIddict, Hangfire, Azure DevOps, Application Insights, Elasticsearch, Git.</em></p>
+<div class="page-break"></div>
+<h3>Desenvolvedor de Software — PrintWayy (Sistema Dragon)</h3>
+<p><strong>Nov 2020 – Mai 2021 (7 meses)</strong> | Remoto<br />
+- Desenvolvimento fullstack e evolução de funcionalidades no <em>Dragon</em>, plataforma legada de monitoramento em larga escala baseada em ASP.NET MVC e Kendo UI.<br />
+- Instrumentação customizada de caminhos críticos de código para diagnóstico de gargalos de I/O em Cosmos DB e Redis, <strong>reduzindo o tempo de carregamento de telas críticas de mais de 1 minuto para 20-30 segundos</strong>.<br />
+<em>Stack: ASP.NET MVC 4, C#, SQL Server, Azure Cosmos DB, Redis, Kendo UI, Razor Pages, Azure DevOps, Git.</em></p>
+<h3>Desenvolvedor de Software Pleno — NDD (ndd Print 360)</h3>
+<p><strong>Out 2018 – Nov 2020 (2 anos 2 meses)</strong> | Lages, SC<br />
+- Desenvolvimento fullstack (.NET Core e .NET Framework) do portal corporativo <em>ndd Print 360</em>, aplicando DDD, SOLID e Clean Code.<br />
+- Implementação de componentes de interface ricos utilizando <strong>Angular</strong> e Telerik Kendo UI.<br />
+- Construção de suítes completas de testes automatizados (xUnit, NUnit, Moq e Selenium) integradas a pipelines de integração contínua (TFS e Azure DevOps com scripts PowerShell).<br />
+- Criação de instalador de distribuição empresarial (.msi) via WixSharp com suporte a múltiplos idiomas (PT/EN/ES), gerando contribuição aceita pela comunidade open-source.<br />
+- Estudo de viabilidade técnica e arquitetura de ETL para relatórios analíticos utilizando SQL Server Analysis Services (SSAS).<br />
+<em>Stack: .NET Core, .NET Framework, C#, Angular, Kendo UI, SQL Server, SignalR, Hangfire, xUnit, Selenium, WixSharp, Azure DevOps.</em></p>
+<h3>Desenvolvedor Trainee — NDD</h3>
+<p><strong>Fev 2018 – Out 2018 (9 meses)</strong> | Lages, SC<br />
+- Formação intensiva em engenharia de software: desenvolvimento backend em .NET Framework, frontend em Angular, APIs RESTful, padrão arquitetural N-Tier e testes unitários com NUnit.<br />
+<em>Stack: .NET Framework, C#, Angular, SQL Server, RESTful APIs, NUnit.</em></p>
+<hr />
+<h2>FORMAÇÃO ACADÊMICA</h2>
+<ul>
+<li><strong>Bacharelado em Ciência da Computação</strong> — Instituto Federal de Santa Catarina (IFSC) | 2015 – 2019<br />
+<em>Trabalho de Conclusão de Curso: Sistema de Gestão de Trabalhos Acadêmicos (.NET Core &amp; SQL Server)</em></li>
+<li><strong>Técnico em Informática para Desenvolvimento</strong> — Instituto Federal de Santa Catarina (IFSC) | 2012 – 2014</li>
+</ul>
+<hr />
+<h2>COMPETÊNCIAS TÉCNICAS</h2>
+<ul>
+<li><strong>Linguagens:</strong> C#, TypeScript, JavaScript, SQL, PHP.</li>
+<li><strong>Backend &amp; Frameworks:</strong> .NET Core, .NET 6/7/8, .NET Framework, ASP.NET Core, Entity Framework Core, Hangfire, SignalR, OpenIddict, IdentityServer, RESTful APIs, Microservices.</li>
+<li><strong>Frontend:</strong> Angular (v13+), React, TypeScript, RxJS, HTML5, CSS3/SASS, Kendo UI, Razor Pages.</li>
+<li><strong>Bancos de Dados &amp; Caching:</strong> SQL Server (T-SQL avançado, Tuning, Stored Procedures), PostgreSQL, Azure Cosmos DB, Redis.</li>
+<li><strong>DevOps, Nuvem &amp; Ferramentas:</strong> Azure DevOps (Pipelines CI/CD), AWS (EC2, S3, CodeCommit), Docker, Git, Application Insights, Postman, Linux VMs.</li>
+<li><strong>Engenharia de Software:</strong> Clean Architecture, Domain-Driven Design (DDD), SOLID, Design Patterns, Multi-tenant Architecture, Code Review, Mentoria Técnica.</li>
+<li><strong>Qualidade &amp; Testes:</strong> Testes Unitários e de Integração (xUnit, NUnit, Moq), Automação E2E (Selenium).</li>
+<li><strong>IA Generativa no Desenvolvimento:</strong> GitHub Copilot, Google Antigravity, Agentes Autônomos de Código (Hermes), Prototipagem e Refatoração Acelerada.</li>
+</ul>
+<hr />
+<h2>CERTIFICAÇÕES &amp; IDIOMAS</h2>
+<ul>
+<li><strong>Microsoft Exam 483:</strong> Programming in C#</li>
+<li><strong>EF SET English Certificate:</strong> 64/100 — Nível C1 Proficient (Inglês Avançado para Negócios e Engenharia)</li>
+<li><strong>Português:</strong> Nativo</li>
+</ul>
+      </div>
+    </div>
+    
+    <!-- Versão 2. Desenvolvedor C# / .NET Sênior -->
+    <div id="cv-csharp" class="cv-version-block" style="display: none;">
+      <div class="cv-container">
+        <h1>ARTHUR SANTOS NETO</h1>
+<p><strong>Desenvolvedor C# / .NET Sênior | Backend &amp; Arquitetura de Software | Cloud &amp; Alta Performance</strong><br />
+Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | arthursan.neto@gmail.com<br />
+<a href="https://linkedin.com/in/arthursneto">LinkedIn: linkedin.com/in/arthursneto</a> | <a href="https://github.com/ArthurSNeto">GitHub: github.com/ArthurSNeto</a></p>
+<hr />
+<h2>RESUMO PROFISSIONAL</h2>
+<p>Engenheiro de Software Backend Sênior especializado no ecossistema <strong>.NET (C#, .NET Core, .NET 6/7/8)</strong> com mais de <strong>6 anos de experiência</strong> construindo APIs de alta performance, serviços distribuídos e arquiteturas de missão crítica. Forte domínio em <strong>Clean Architecture, Domain-Driven Design (DDD), princípios SOLID e Design Patterns</strong>, com histórico em concepção de arquiteturas <strong>multi-tenant</strong> com bancos isolados e roteamento dinâmico.</p>
+<p>Sólida vivência em banco de dados relacional <strong>SQL Server</strong> (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (<strong>Cosmos DB, Redis</strong>). Experiência comprovada em liderança técnica (mentoria de 6 a 8 desenvolvedores), estruturação de pipelines CI/CD automatizadas no <strong>Azure DevOps</strong> e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a engenharia de software e a garantia de qualidade.</p>
+<p><strong>Principais Competências:</strong> C# (.NET 6/7/8 / .NET Core) · ASP.NET Core Web API · Entity Framework Core · SQL Server (T-SQL, Otimização de Performance) · Multi-tenancy · Identity Server &amp; OpenIddict · Hangfire · Azure DevOps (CI/CD) · DDD &amp; Clean Architecture · xUnit / NUnit / Moq · Redis · Application Insights</p>
+<hr />
+<h2>EXPERIÊNCIA PROFISSIONAL</h2>
+<h3>Engenheiro de Software Backend C# Independente — Consultoria &amp; Soluções com IA</h3>
+<p><strong>Mar 2025 – Atual</strong> | Lages, SC (Remoto)<br />
+- Arquitetura e desenvolvimento de backends robustos em C# (.NET 8) com ASP.NET Core, aplicando Clean Architecture, injeção de dependência e padrões RESTful.<br />
+- Concepção de microsserviços e APIs com persistência desacoplada via Entity Framework Core e SQL Server.<br />
+- Pesquisa aplicada e implementação prática de esteiras de engenharia potencializadas por IA Generativa (GitHub Copilot, Google Antigravity e agentes de desenvolvimento autônomo), acelerando a geração de testes unitários, validação de lógica de domínio e refatoração arquitetural.<br />
+- Desenvolvimento de PoCs (Provas de Conceito) focadas em escalabilidade, concorrência e processamento assíncrono.<br />
+<em>Stack: C#, .NET 8, ASP.NET Core, Entity Framework Core, SQL Server, Clean Architecture, REST APIs, GitHub Copilot, Google Antigravity.</em></p>
+<h3>Desenvolvedor de Software Sênior (.NET / Backend) — Positivo Tecnologia</h3>
+<p><strong>Out 2023 – Mar 2025 (1 ano 6 meses)</strong> | Curitiba, PR (Remoto)<br />
+- Engenheiro backend central na plataforma educacional <em>Aprende Brasil</em>, atendendo escala massiva de <strong>2.800+ unidades municipais e mais de 438 mil estudantes</strong>.<br />
+- Arquitetura e desenvolvimento de novas funcionalidades e serviços em <strong>.NET 7</strong>, Entity Framework Core e SQL Server para suportar fluxos transacionais e analíticos de alto volume.<br />
+- Análise de execução, profiling e refatoração profunda de stored procedures e views em SQL Server, obtendo <strong>40% de redução no tempo de resposta</strong> em relatórios analíticos essenciais.<br />
+- Consolidação da infraestrutura de repositórios legados (AWS) para o <strong>Azure DevOps</strong>, arquitetando pipelines automatizados de build e release CI/CD com <strong>redução do tempo de build de 15 min para 5 min</strong> (otimização de 66%).<br />
+- Refatoração de autenticação e segurança de serviço legado PHP/Laravel e condução de deploy em ambiente Linux (VM), resolvendo integrações de rede e infraestrutura de produção.<br />
+- Observabilidade e monitoramento de saúde de serviços em produção utilizando Azure Application Insights, gerindo deploys multi-ambiente com zero downtime.<br />
+- Condução de code reviews, definição de padrões de qualidade de código e mentoria técnica para o time de desenvolvimento.<br />
+<em>Stack: C#, .NET 7, .NET Framework, Entity Framework Core, SQL Server (T-SQL, Stored Procedures), Azure DevOps, Application Insights, Hangfire, Git.</em></p>
+<h3>Desenvolvedor de Software Sênior (Tech Lead .NET) — PrintWayy (Sistema Sunbird)</h3>
+<p><strong>Mai 2021 – Mar 2023 (1 ano 9 meses)</strong> | Remoto<br />
+- Responsável pela arquitetura técnica e liderança de engenharia da plataforma corporativa <em>Sunbird</em>, sistema de bilhetagem e monitoramento de ativos de impressão corporativos.<br />
+- Arquitetura de backend completa em <strong>.NET 6 / C#</strong>, aplicando Domain-Driven Design (DDD), separação de responsabilidades e padrões de resiliência.<br />
+- Design e implementação pioneira de arquitetura <strong>multi-tenant</strong> com separação física de bancos de dados SQL Server por cliente, com lógica de resolução dinâmica de connection strings baseada no contexto do token JWT do usuário autenticado.<br />
+- Implementação de servidor de autenticação centralizado com <strong>Identity Server e OpenIddict</strong> (OAuth2 / OpenID Connect), garantindo segurança e granularidade de permissões.<br />
+- Orquestração de tarefas em background e processamento assíncrono de alto volume utilizando <strong>Hangfire</strong>.<br />
+- Liderança técnica de equipe de <strong>6 a 8 desenvolvedores</strong>, respondendo por decisões arquiteturais, revisão rigorosa de código, testes de aderência e mentoria contínua.<br />
+- Estruturação de pipelines de CI/CD completas no Azure DevOps e governança de logs estruturados com Application Insights e Elasticsearch.<br />
+<em>Stack: C#, .NET 6, ASP.NET Core, Entity Framework Core, SQL Server, Identity Server, OpenIddict, Hangfire, Azure DevOps, Application Insights, Elasticsearch.</em></p>
+<div class="page-break"></div>
+<h3>Desenvolvedor de Software — PrintWayy (Sistema Dragon)</h3>
+<p><strong>Nov 2020 – Mai 2021 (7 meses)</strong> | Remoto<br />
+- Evolução e manutenção de backend em ASP.NET MVC 4 integrado a SQL Server, Redis e Cosmos DB em ecossistema de missão crítica.<br />
+- Implementação de diagnósticos avançados e instrumentação de caminhos críticos (Stopwatch profiling), identificando e corrigindo gargalos severos de latência no Cosmos DB, <strong>reduzindo o tempo de carregamento de páginas críticas de &gt;60s para 20-30s</strong>.<br />
+<em>Stack: C#, ASP.NET MVC 4, Entity Framework, SQL Server, Azure Cosmos DB, Redis, Azure DevOps.</em></p>
+<h3>Desenvolvedor de Software Pleno (.NET) — NDD (ndd Print 360)</h3>
+<p><strong>Out 2018 – Nov 2020 (2 anos 2 meses)</strong> | Lages, SC<br />
+- Desenvolvimento de backend em .NET Core e .NET Framework para a plataforma de gestão <em>ndd Print 360</em>, com foco em DDD, SOLID e Clean Code.<br />
+- Automação abrangente de testes unitários e de integração com <strong>xUnit, NUnit e Moq</strong>, com validação automática integrada nas pipelines de CI/CD (TFS e Azure DevOps).<br />
+- Desenvolvimento de instaladores corporativos (.msi) via WixSharp com suporte nativo a múltiplos idiomas (PT/EN/ES) e contribuições para o projeto open-source no GitHub.<br />
+- Condução de estudo técnico de viabilidade e arquitetura de dados para migração de relatórios customizados para SQL Server Analysis Services (SSAS).<br />
+<em>Stack: C#, .NET Core, .NET Framework, Entity Framework, SignalR, Hangfire, SQL Server, SSAS, xUnit, NUnit, Moq, WixSharp, Azure DevOps.</em></p>
+<h3>Desenvolvedor Trainee — NDD</h3>
+<p><strong>Fev 2018 – Out 2018 (9 meses)</strong> | Lages, SC<br />
+- Formação em engenharia backend em C#/.NET Framework: arquitetura N-Tier, APIs RESTful, ORM (Entity Framework) e desenvolvimento orientado a testes (TDD) com NUnit.<br />
+<em>Stack: C#, .NET Framework, Entity Framework, SQL Server, NUnit, REST APIs.</em></p>
+<hr />
+<h2>FORMAÇÃO ACADÊMICA</h2>
+<ul>
+<li><strong>Bacharelado em Ciência da Computação</strong> — Instituto Federal de Santa Catarina (IFSC) | 2015 – 2019<br />
+<em>TCC: Sistema de Gestão de Trabalhos Acadêmicos (.NET Core &amp; SQL Server)</em></li>
+<li><strong>Técnico em Informática para Desenvolvimento</strong> — Instituto Federal de Santa Catarina (IFSC) | 2012 – 2014</li>
+</ul>
+<hr />
+<h2>COMPETÊNCIAS TÉCNICAS</h2>
+<ul>
+<li><strong>Linguagens:</strong> C# (Avançado / Especialista), SQL (T-SQL Avançado), TypeScript, JavaScript, PHP.</li>
+<li><strong>Ecossistema .NET:</strong> .NET 8, .NET 7, .NET 6, .NET Core, .NET Framework, ASP.NET Core Web API, Entity Framework Core, LINQ, Dapper, SignalR, Hangfire, WixSharp.</li>
+<li><strong>Arquitetura &amp; Engenharia:</strong> Clean Architecture, Domain-Driven Design (DDD), Microservices, Multi-tenancy com isolamento de dados, SOLID, Design Patterns, CQRS, Event-Driven patterns.</li>
+<li><strong>Autenticação &amp; Segurança:</strong> Identity Server, OpenIddict, OAuth2, OpenID Connect, JWT, Gestão de Roles e Claims.</li>
+<li><strong>Bancos de Dados:</strong> SQL Server (Query Optimization, Stored Procedures, Views, Índices, Execution Plans), PostgreSQL, Azure Cosmos DB, Redis (Distributed Cache).</li>
+<li><strong>Testes &amp; Qualidade:</strong> Testes Unitários e de Integração (xUnit, NUnit, Moq), Test-Driven Development (TDD), Code Review.</li>
+<li><strong>Cloud &amp; DevOps:</strong> Azure DevOps (Pipelines CI/CD YAML), Azure Application Insights, AWS (EC2, S3, CodeCommit), Docker, Git, Linux VMs.</li>
+<li><strong>IA Generativa Aplicada ao Desenvolvimento:</strong> GitHub Copilot, Google Antigravity, agentes de software autônomo (Hermes).</li>
+</ul>
+<hr />
+<h2>CERTIFICAÇÕES &amp; IDIOMAS</h2>
+<ul>
+<li><strong>Microsoft Exam 483:</strong> Programming in C#</li>
+<li><strong>EF SET English Certificate:</strong> 64/100 — C1 Proficient (Inglês Avançado / Fluente para Negócios)</li>
+<li><strong>Português:</strong> Nativo</li>
+</ul>
+      </div>
+    </div>
+    
+    <!-- Versão 3. Desenvolvedor Angular Sênior -->
+    <div id="cv-angular" class="cv-version-block" style="display: none;">
+      <div class="cv-container">
+        <h1>ARTHUR SANTOS NETO</h1>
+<p><strong>Desenvolvedor Angular Sênior | Frontend Engineer | TypeScript, RxJS &amp; Arquitetura SPA</strong><br />
+Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | arthursan.neto@gmail.com<br />
+<a href="https://linkedin.com/in/arthursneto">LinkedIn: linkedin.com/in/arthursneto</a> | <a href="https://github.com/ArthurSNeto">GitHub: github.com/ArthurSNeto</a></p>
+<hr />
+<h2>RESUMO PROFISSIONAL</h2>
+<p>Engenheiro de Software Frontend Sênior com <strong>6+ anos de experiência</strong> especializado na construção de Single Page Applications (SPAs) corporativas de alta complexidade com <strong>Angular (v13+)</strong>, <strong>TypeScript</strong> e <strong>RxJS</strong>. Ampla vivência na estruturação de arquiteturas modulares, componentização reutilizável, gerenciamento reativo de estado, bibliotecas de UI corporativas (<strong>Kendo UI</strong>) e otimização de performance no carregamento de interfaces (<em>bundle size</em>, <em>lazy loading</em> e renderização).</p>
+<p>Diferencia-se por um background sólido em engenharia de software e backend (.NET/C#), permitindo uma integração perfeita e eficiente com APIs RESTful, contratos Swagger/OpenAPI, tratamento seguro de autenticação (OAuth2/JWT via interceptors) e diagnóstico de ponta a ponta. Experiência comprovada em liderança técnica (mentoria de times de 6 a 8 desenvolvedores), automação de testes (unitários e E2E) e esteiras de CI/CD automatizadas (Azure DevOps). Aplica ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a entrega de código limpo, prototipagem ágil e cobertura de testes.</p>
+<p><strong>Principais Competências:</strong> Angular (13+) · TypeScript · JavaScript (ES6+) · RxJS · Gestão de Estado · HTML5 / SCSS · Kendo UI · Reactive Forms · Consumo de REST APIs · HTTP Interceptors · React · CI/CD (Azure DevOps) · Testes de UI &amp; E2E (Selenium, Jasmine) · IA Generativa Aplicada ao Desenvolvimento</p>
+<hr />
+<h2>EXPERIÊNCIA PROFISSIONAL</h2>
+<h3>Engenheiro de Software Frontend Independente — Soluções Web &amp; IA</h3>
+<p><strong>Mar 2025 – Atual</strong> | Lages, SC (Remoto)<br />
+- Concepção, arquitetura e desenvolvimento de interfaces web responsivas de alta performance em <strong>Angular</strong>, TypeScript e HTML5/SCSS.<br />
+- Desenvolvimento de extensões para navegadores, landing pages de alta conversão e módulos frontend integrados a APIs REST em C#.<br />
+- Implementação de fluxos de trabalho avançados com Inteligência Artificial Generativa (GitHub Copilot, Google Antigravity), acelerando em mais de 50% a prototipagem de componentes de interface, criação de testes automatizados e refatoração de código.<br />
+- Aplicação de boas práticas de componentização, modularidade, acessibilidade (a11y) e design responsivo.<br />
+<em>Stack: Angular, TypeScript, RxJS, HTML5, SCSS, JavaScript, C# REST APIs, GitHub Copilot, Google Antigravity.</em></p>
+<h3>Desenvolvedor de Software Sênior (Frontend / Fullstack) — Positivo Tecnologia</h3>
+<p><strong>Out 2023 – Mar 2025 (1 ano 6 meses)</strong> | Curitiba, PR (Remoto)<br />
+- Atuação no ecossistema da plataforma educacional <em>Aprende Brasil</em>, atendendo mais de <strong>2.800 unidades de ensino e 438 mil estudantes</strong>.<br />
+- Desenvolvimento de módulo frontend de alta interatividade em <strong>React</strong>, permitindo que professores realizem a correção digital de provas por meio de leitura, navegação fluida e marcação de imagens de avaliações em alta resolução.<br />
+- Consumo otimizado de APIs RESTful .NET e PHP, implementando interceptação de requisições, tratamento de erros e gestão de estado em aplicações de grande porte.<br />
+- Otimização do pipeline de build e deploy no <strong>Azure DevOps</strong>, reduzindo o tempo de compilação e publicação de 15 minutos para 5 minutos (ganho de 66% de produtividade).<br />
+- Participação ativa em reuniões de design de interfaces, code review rigoroso e suporte contínuo à equipe de engenharia.<br />
+<em>Stack: Angular, React, TypeScript, JavaScript, HTML5, SCSS, REST APIs, Azure DevOps, Git.</em></p>
+<h3>Desenvolvedor de Software Sênior (Tech Lead Frontend / Fullstack) — PrintWayy (Sunbird)</h3>
+<p><strong>Mai 2021 – Mar 2023 (1 ano 9 meses)</strong> | Remoto<br />
+- Concepção arquitetural e desenvolvimento do frontend da plataforma corporativa <em>Sunbird</em> utilizando <strong>Angular 13, TypeScript e RxJS</strong>.<br />
+- Construção de biblioteca de componentes reutilizáveis baseada em <strong>Telerik Kendo UI</strong>, garantindo consistência visual, agilidade no desenvolvimento e conformidade com os requisitos de design system corporativo.<br />
+- Estruturação de arquitetura SPA modular com carregamento sob demanda (<em>lazy loading</em>), <em>route guards</em> para controle de acesso baseado em roles (RBAC) e <em>HTTP interceptors</em> para injeção transparente de tokens de autenticação (OAuth2/OpenIddict).<br />
+- Liderança técnica de equipe de <strong>6 a 8 desenvolvedores</strong>, promovendo padrões de código limpo, boas práticas em TypeScript/Angular, mentoria individual e revisões de código.<br />
+- Configuração de esteiras de build e release no Azure DevOps para publicação automatizada de aplicações Angular em múltiplos ambientes (dev, staging, prod).<br />
+<em>Stack: Angular 13, TypeScript, RxJS, Kendo UI, HTML5, SCSS, REST APIs, OpenIddict/OAuth2, Azure DevOps, Git.</em></p>
+<div class="page-break"></div>
+<h3>Desenvolvedor de Software — PrintWayy (Sistema Dragon)</h3>
+<p><strong>Nov 2020 – Mai 2021 (7 meses)</strong> | Remoto<br />
+- Desenvolvimento e evolução de interfaces complexas com <strong>Telerik Kendo UI</strong>, Razor Pages e integração assíncrona com backend ASP.NET MVC 4.<br />
+- Instrumentação e diagnóstico de gargalos de rede e carregamento de páginas pesadas, auxiliando na <strong>redução do tempo de carregamento de telas críticas de mais de 1 minuto para 20-30 segundos</strong>.<br />
+<em>Stack: Kendo UI, JavaScript, HTML5, CSS, ASP.NET MVC, Redis, Azure DevOps.</em></p>
+<h3>Desenvolvedor de Software Pleno (Frontend / Fullstack) — NDD (ndd Print 360)</h3>
+<p><strong>Out 2018 – Nov 2020 (2 anos 2 meses)</strong> | Lages, SC<br />
+- Desenvolvimento de módulos frontend do portal corporativo <em>ndd Print 360</em>, utilizando <strong>Angular</strong> e suíte de componentes <strong>Kendo UI</strong>.<br />
+- Criação de telas ricas para visualização de relatórios analíticos, gráficos interativos e controles de configuração de frotas de equipamentos.<br />
+- Implementação e execução de testes automatizados E2E com <strong>Selenium</strong>, garantindo a integridade dos fluxos críticos de navegação do usuário e prevenindo regressões visuais e funcionais.<br />
+- Integração contínua de artefatos de frontend no TFS e Azure DevOps com scripts automatizados em PowerShell.<br />
+<em>Stack: Angular, TypeScript, Kendo UI, JavaScript, HTML5, CSS3, Selenium, Azure DevOps, TFS.</em></p>
+<h3>Desenvolvedor Trainee — NDD</h3>
+<p><strong>Fev 2018 – Out 2018 (9 meses)</strong> | Lages, SC<br />
+- Formação intensiva em desenvolvimento frontend com <strong>Angular</strong> e backend .NET: arquitetura de componentes, consumo de serviços RESTful, manipulação de DOM e estilização responsiva.<br />
+<em>Stack: Angular, TypeScript, JavaScript, HTML5, CSS3, .NET Framework, SQL Server.</em></p>
+<hr />
+<h2>FORMAÇÃO ACADÊMICA</h2>
+<ul>
+<li><strong>Bacharelado em Ciência da Computação</strong> — Instituto Federal de Santa Catarina (IFSC) | 2015 – 2019<br />
+<em>TCC: Sistema de Gestão de Trabalhos Acadêmicos (.NET Core &amp; SQL Server)</em></li>
+<li><strong>Técnico em Informática para Desenvolvimento</strong> — Instituto Federal de Santa Catarina (IFSC) | 2012 – 2014</li>
+</ul>
+<hr />
+<h2>COMPETÊNCIAS TÉCNICAS</h2>
+<ul>
+<li><strong>Frontend Core:</strong> Angular (v13+), TypeScript, JavaScript (ES6+), RxJS, HTML5, CSS3, SASS/SCSS.</li>
+<li><strong>Arquitetura Frontend:</strong> Component-Based Architecture, Lazy Loading, Standalone Components, Reactive Forms, Route Guards, HTTP Interceptors, Gerenciamento Reativo de Estado.</li>
+<li><strong>Bibliotecas de UI:</strong> Telerik Kendo UI, Angular Material, Bootstrap, Tailwind CSS, Responsive Web Design.</li>
+<li><strong>Outras Tecnologias Web:</strong> React, Razor Pages, Webpack, NPM, consumo de APIs RESTful e WebSockets.</li>
+<li><strong>DevOps &amp; Ferramentas:</strong> Azure DevOps (Pipelines de CI/CD para Frontend), Git, GitHub, Postman, Chrome DevTools, Lighthouse (Performance &amp; A11y).</li>
+<li><strong>Testes &amp; Qualidade:</strong> Testes de Integração e E2E (Selenium), Jasmine, Karma, Code Review, Clean Code.</li>
+<li><strong>Conhecimento Complementar (Backend):</strong> C#, ASP.NET Core, SQL Server (facilita alinhamento técnico com times de backend).</li>
+<li><strong>IA Generativa Aplicada ao Frontend:</strong> GitHub Copilot, Google Antigravity, prototipagem ágil de UI e geração acelerada de testes.</li>
+</ul>
+<hr />
+<h2>CERTIFICAÇÕES &amp; IDIOMAS</h2>
+<ul>
+<li><strong>Microsoft Exam 483:</strong> Programming in C#</li>
+<li><strong>EF SET English Certificate:</strong> 64/100 — Nível C1 Proficient (Inglês Avançado para Negócios e Engenharia)</li>
+<li><strong>Português:</strong> Nativo</li>
+</ul>
+      </div>
+    </div>
+    
+    <!-- Versão 4. QA Analyst Pleno -->
+    <div id="cv-qa" class="cv-version-block" style="display: none;">
+      <div class="cv-container">
+        <h1>ARTHUR SANTOS NETO</h1>
+<p><strong>QA Analyst Pleno | SDET (Software Development Engineer in Test) | Automação de Testes &amp; CI/CD</strong><br />
+Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | arthursan.neto@gmail.com<br />
+<a href="https://linkedin.com/in/arthursneto">LinkedIn: linkedin.com/in/arthursneto</a> | <a href="https://github.com/ArthurSNeto">GitHub: github.com/ArthurSNeto</a></p>
+<hr />
+<h2>RESUMO PROFISSIONAL</h2>
+<p>Analista de Qualidade de Software (QA) e Engenheiro de Testes (SDET) Pleno com sólido background de mais de <strong>6 anos em engenharia de software</strong>, unindo profundo conhecimento de desenvolvimento de sistemas com rigor metodológico em garantia da qualidade (QA). Especialista em <strong>automação de testes funcionais, de integração e ponta a ponta (E2E)</strong> utilizando <strong>Selenium, xUnit, NUnit e Moq</strong>, além de testes manuais e automatizados de APIs RESTful com <strong>Postman</strong>.</p>
+<p>Destaca-se pela capacidade de atuar no paradigma <em>Shift-Left Testing</em>, identificando defeitos na fase inicial de design e código através de code reviews técnicos rigorosos e instrumentação diagnóstica. Histórico comprovado na integração de testes automatizados a pipelines de <strong>CI/CD no Azure DevOps</strong>, testes de carga/performance (identificando gargalos em bancos de dados que reduziram tempos de resposta em 40% e telas de 1min+ para 20s) e validação de plataformas críticas com mais de <strong>438 mil usuários</strong>. Utiliza ativamente ferramentas de IA Generativa para aceleração na escrita de cenários de teste e geração de dados de teste (test data).</p>
+<p><strong>Principais Competências:</strong> Automação de Testes (E2E, Integração, Unitários) · Selenium WebDriver · xUnit / NUnit / Moq · Testes de APIs RESTful (Postman) · CI/CD &amp; Quality Gates (Azure DevOps) · Testes de Performance &amp; Profiling · SQL Server (Validação de Dados) · C# · TypeScript/JavaScript · Shift-Left Testing · IA Aplicada a Testes</p>
+<hr />
+<h2>EXPERIÊNCIA PROFISSIONAL</h2>
+<h3>Engenheiro de Qualidade &amp; Testes Independente (Consultoria &amp; Automação com IA)</h3>
+<p><strong>Mar 2025 – Atual</strong> | Lages, SC (Remoto)<br />
+- Planejamento, estruturação e execução de estratégias de testes automatizados para aplicações web e extensões de navegador.<br />
+- Criação de planos de teste, matrizes de rastreabilidade e cenários de testes funcionais, de regressão e de borda (<em>edge cases</em>).<br />
+- Automação de testes de APIs RESTful e validação de contratos de integração entre backends C# e frontends Angular.<br />
+- Utilização de Inteligência Artificial Generativa (GitHub Copilot, Google Antigravity) para geração acelerada de suítes de testes automatizados, sintetização de massas de dados de teste (<em>mock data</em>) e cobertura de caminhos críticos.<br />
+<em>Stack: C#, .NET, Selenium, Postman, xUnit, Angular, TypeScript, GitHub Copilot, Google Antigravity.</em></p>
+<h3>Analista de Qualidade / Engenheiro de Software — Positivo Tecnologia</h3>
+<p><strong>Out 2023 – Mar 2025 (1 ano 6 meses)</strong> | Curitiba, PR (Remoto)<br />
+- Garantia de qualidade e confiabilidade em ecossistema educacional de alta criticidade (<em>Aprende Brasil</em>), impactando mais de <strong>2.800 unidades de ensino e 438 mil estudantes</strong>.<br />
+- Validação técnica e testes funcionais em novos módulos desenvolvidos em .NET 7 e React, incluindo cenários complexos de manipulação e marcação de imagens de provas em alta escala.<br />
+- Elaboração e execução de testes de integração e validação de dados em consultas complexas, views e stored procedures em SQL Server, assegurando precisão em relatórios analíticos e <strong>redução de 40% no tempo de resposta</strong>.<br />
+- Integração de validações automatizadas de testes nas esteiras de <strong>CI/CD no Azure DevOps</strong>, auxiliando na redução do tempo de feedback de build de 15 minutos para 5 minutos.<br />
+- Execução de testes de segurança, autenticação e validação de permissões de acesso em deploys de produção e homologação.<br />
+- Revisão técnica de código (<em>Code Review</em>) focada em manutenibilidade, cobertura de testes unitários e prevenção precoce de bugs (<em>Shift-Left Testing</em>).<br />
+<em>Stack: .NET 7, C#, SQL Server, React, Postman, Azure DevOps, Application Insights, Git, Hangfire.</em></p>
+<h3>Engenheiro de Testes &amp; Liderança Técnica — PrintWayy (Sistema Sunbird)</h3>
+<p><strong>Mai 2021 – Mar 2023 (1 ano 9 meses)</strong> | Remoto<br />
+- Definição da estratégia de qualidade e arquitetura de testes para plataforma corporativa de bilhetagem e monitoramento (<em>Sunbird</em>).<br />
+- Validação de fluxos complexos de autenticação e autorização via Identity Server e tokens JWT/OAuth2, testando cenários de segurança e isolamento entre clientes em arquitetura <strong>multi-tenant</strong>.<br />
+- Implementação e supervisão de testes unitários e de integração utilizando xUnit e Moq, estabelecendo metas de cobertura de código para a equipe.<br />
+- Configuração de <em>quality gates</em> automatizados nas pipelines de CI/CD do Azure DevOps, impedindo que código sem testes ou com quebras de build avançasse para ambientes de homologação e produção.<br />
+- Monitoramento de erros em produção e investigação de causas raízes (<em>Root Cause Analysis</em>) com Application Insights e Elasticsearch.<br />
+<em>Stack: C#, .NET 6, xUnit, Moq, Postman, SQL Server, Identity Server, Hangfire, Azure DevOps, Application Insights.</em></p>
+<div class="page-break"></div>
+<h3>Engenheiro de Testes &amp; Performance — PrintWayy (Sistema Dragon)</h3>
+<p><strong>Nov 2020 – Mai 2021 (7 meses)</strong> | Remoto<br />
+- Condução de testes de performance e profiling de caminhos críticos de código em plataforma de monitoramento em tempo real.<br />
+- Instrumentação customizada para identificação de gargalos de rede e I/O no Cosmos DB e Redis, validando correções que <strong>reduziram o tempo de carregamento de páginas críticas de mais de 1 minuto para 20-30 segundos</strong>.<br />
+- Execução de testes exploratórios e de regressão em ambiente de homologação antes de cada release.<br />
+<em>Stack: C#, ASP.NET MVC, Cosmos DB, Redis, SQL Server, Kendo UI, Azure DevOps.</em></p>
+<h3>Analista de Testes &amp; Desenvolvedor de Software — NDD (ndd Print 360)</h3>
+<p><strong>Out 2018 – Nov 2020 (2 anos 2 meses)</strong> | Lages, SC<br />
+- Criação e execução de suítes de <strong>automação de testes ponta a ponta (E2E) com Selenium</strong>, validando jornadas de usuário críticas no portal corporativo <em>ndd Print 360</em>.<br />
+- Desenvolvimento de testes unitários e de integração com <strong>xUnit, NUnit e Moq</strong> no backend .NET Core e .NET Framework.<br />
+- Automação da execução de testes em esteiras contínuas de CI/CD no TFS e Azure DevOps através de scripts PowerShell.<br />
+- Validação de testes de internacionalização (i18n) e testes de instalação empresarial (.msi com WixSharp) em múltiplos idiomas (Português, Inglês e Espanhol).<br />
+- Validação de integridade e consistência de dados em relatórios analíticos gerados com SQL Server e SSAS.<br />
+<em>Stack: Selenium WebDriver, xUnit, NUnit, Moq, .NET Core, C#, Angular, SQL Server, TFS, Azure DevOps, PowerShell.</em></p>
+<h3>Trainee de Desenvolvimento &amp; Testes — NDD</h3>
+<p><strong>Fev 2018 – Out 2018 (9 meses)</strong> | Lages, SC<br />
+- Formação em boas práticas de engenharia de software e testes unitários: criação de testes com NUnit, cobertura de código, validação de APIs RESTful e padrões de arquitetura limpa.<br />
+<em>Stack: NUnit, C#, .NET Framework, SQL Server, REST APIs.</em></p>
+<hr />
+<h2>FORMAÇÃO ACADÊMICA</h2>
+<ul>
+<li><strong>Bacharelado em Ciência da Computação</strong> — Instituto Federal de Santa Catarina (IFSC) | 2015 – 2019<br />
+<em>TCC: Sistema de Gestão de Trabalhos Acadêmicos (.NET Core &amp; SQL Server)</em></li>
+<li><strong>Técnico em Informática para Desenvolvimento</strong> — Instituto Federal de Santa Catarina (IFSC) | 2012 – 2014</li>
+</ul>
+<hr />
+<h2>COMPETÊNCIAS TÉCNICAS</h2>
+<ul>
+<li><strong>Metodologia de Testes:</strong> Testes Funcionais, Testes de Regressão, Testes de Integração, Testes Unitários, Testes End-to-End (E2E), Testes Exploratórios, Shift-Left Testing, Root Cause Analysis (RCA).</li>
+<li><strong>Ferramentas de Teste &amp; Automação:</strong> Selenium WebDriver, Postman (API Testing &amp; Collections), xUnit, NUnit, Moq, Test-Driven Development (TDD).</li>
+<li><strong>DevOps &amp; Integração Contínua:</strong> Azure DevOps (Pipelines de Testes Automatizados, Quality Gates, Builds), TFS, Git, PowerShell.</li>
+<li><strong>Bancos de Dados &amp; Validação:</strong> SQL Server (Queries de validação, integridade referencial, stored procedures), Cosmos DB, Redis.</li>
+<li><strong>Linguagens de Programação:</strong> C# (Avançado), TypeScript, JavaScript, SQL, PHP.</li>
+<li><strong>Observabilidade &amp; Monitoramento:</strong> Azure Application Insights, Elasticsearch, Logging estruturado.</li>
+<li><strong>IA Generativa Aplicada a QA:</strong> Geração de casos de teste, criação de dados sintéticos de teste (<em>mock data</em>) e automação com GitHub Copilot e Google Antigravity.</li>
+</ul>
+<hr />
+<h2>CERTIFICAÇÕES &amp; IDIOMAS</h2>
+<ul>
+<li><strong>Microsoft Exam 483:</strong> Programming in C#</li>
+<li><strong>EF SET English Certificate:</strong> 64/100 — C1 Proficient (Inglês Avançado para Negócios e Comunicação Global)</li>
+<li><strong>Português:</strong> Nativo</li>
+</ul>
+      </div>
+    </div>
+    
+
+  <script>
+    const titles = {
+      'fullstack': 'Arthur_Santos_Neto_Desenvolvedor_Fullstack_Senior',
+      'csharp': 'Arthur_Santos_Neto_Desenvolvedor_CSharp_Senior',
+      'angular': 'Arthur_Santos_Neto_Desenvolvedor_Angular_Senior',
+      'qa': 'Arthur_Santos_Neto_QA_Analyst_Pleno'
+    };
+
+    function switchVersion(key) {
+      const keys = ['fullstack', 'csharp', 'angular', 'qa'];
+      keys.forEach(k => {
+        const el = document.getElementById('cv-' + k);
+        if (el) {
+          el.style.display = (k === key) ? 'block' : 'none';
+        }
+      });
+      document.title = (titles[key] || 'Arthur_Santos_Neto_CV') + '.pdf';
+    }
+  </script>
+</body>
+</html>
