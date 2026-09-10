@@ -1,5 +1,11 @@
 import os
 import markdown
+import subprocess
+
+# Read CSS content to inline directly into all HTML files (Zero cache issues!)
+css_path = os.path.join("templates", "style.css")
+with open(css_path, "r", encoding="utf-8") as f:
+    css_content = f.read()
 
 versions_info = [
     ("fullstack", "01_desenvolvedor_fullstack_senior", "1. Desenvolvedor Fullstack Sênior", "Arthur_Santos_Neto_Desenvolvedor_Fullstack_Senior.pdf"),
@@ -28,13 +34,15 @@ for v_id, fname, label, pdf_name in versions_info:
         if h3_start != -1:
             html_content = html_content[:h3_start] + '<div class="page-break"></div>\n' + html_content[h3_start:]
 
-    # Standalone file for this version
+    # Standalone file with INLINED CSS (guarantees 100% cache-free rendering)
     standalone = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>{label} - Arthur Santos Neto</title>
-  <link rel="stylesheet" href="../templates/style.css">
+  <style>
+{css_content}
+  </style>
 </head>
 <body>
   <div class="toolbar no-print">
@@ -65,7 +73,8 @@ for v_id, fname, label, pdf_name in versions_info:
 </body>
 </html>"""
     
-    with open(os.path.join("versoes", f"{fname}.html"), "w", encoding="utf-8") as f:
+    html_out = os.path.join("versoes", f"{fname}.html")
+    with open(html_out, "w", encoding="utf-8") as f:
         f.write(standalone)
 
     # Store for preview switcher
@@ -78,13 +87,15 @@ for v_id, fname, label, pdf_name in versions_info:
     </div>
     """)
 
-# Now generate templates/preview_cv.html
+# Generate preview_cv.html with INLINED CSS
 preview_html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Arthur Santos Neto - Visualizador de Currículos</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+{css_content}
+  </style>
 </head>
 <body>
   <header class="toolbar no-print">
@@ -108,14 +119,14 @@ preview_html = f"""<!DOCTYPE html>
   </header>
 
   <div class="no-print instruction-card">
-    <strong style="font-size: 13.5px; display: block; margin-bottom: 4px; color: #92400e;">💡 Como remover o cabeçalho e rodapé do navegador (Data, URL e Página 1/2):</strong>
+    <strong style="font-size: 13.5px; display: block; margin-bottom: 4px; color: #92400e;">💡 Dicas para salvar o PDF perfeito no Chrome/Edge:</strong>
     <ol style="margin-left: 20px; line-height: 1.5; font-size: 12.5px; color: #78350f;">
-      <li>Ao clicar em <strong>Salvar em PDF</strong> (ou pressionar <strong>Ctrl+P</strong>), expanda o menu <strong>"Mais definições"</strong> (<em>More settings</em>).</li>
-      <li><strong>DESMARQUE</strong> a caixinha <strong>"Cabeçalhos e rodapés"</strong> (<em>Headers and footers</em>). Isso remove a data/título no topo e a URL/página no rodapé!</li>
-      <li><strong>MARQUE</strong> a caixinha <strong>"Gráficos de segundo plano"</strong> (<em>Background graphics</em>) para manter as cores e linhas.</li>
-      <li>Em <strong>Margens</strong>, selecione <strong>"Mínimas"</strong> ou <strong>"Personalizadas"</strong> (para encaixar perfeitamente em 2 páginas).</li>
+      <li>Clique em <strong>Salvar em PDF</strong> (ou pressione <strong>Ctrl+P</strong>).</li>
+      <li>Expanda <strong>"Mais definições"</strong> (<em>More settings</em>).</li>
+      <li><strong>DESMARQUE "Cabeçalhos e rodapés"</strong> (remove data, URL e número de página).</li>
+      <li><strong>MARQUE "Gráficos de segundo plano"</strong> (mantém linhas e destaques).</li>
+      <li>Em <strong>Margens</strong>, selecione <strong>"Mínimas"</strong> ou <strong>"Personalizadas"</strong>.</li>
     </ol>
-    <div style="margin-top: 6px; font-size: 11.5px; color: #b45309;">✨ <em>O navegador memoriza essa configuração automaticamente para as próximas impressões.</em></div>
   </div>
 
   {''.join(sections_html)}
@@ -145,4 +156,19 @@ preview_html = f"""<!DOCTYPE html>
 with open(os.path.join("templates", "preview_cv.html"), "w", encoding="utf-8") as f:
     f.write(preview_html)
 
-print("Regenerated preview_cv.html and standalone HTML files successfully.")
+print("HTML files regenerated with inlined CSS.")
+
+# Automatically export all 4 PDFs directly using headless Chrome
+chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+if os.path.exists(chrome_path):
+    print("\nExporting all 4 PDFs directly via Chrome headless...")
+    pdf_dir = os.path.join("versoes", "pdf")
+    os.makedirs(pdf_dir, exist_ok=True)
+    for v_id, fname, label, pdf_name in versions_info:
+        html_file = os.path.abspath(os.path.join("versoes", f"{fname}.html"))
+        pdf_file = os.path.abspath(os.path.join(pdf_dir, pdf_name))
+        cmd = f'cmd.exe /c ""{chrome_path}" --headless=new --no-pdf-header-footer --print-to-pdf="{pdf_file}" "{html_file}""'
+        subprocess.run(cmd, shell=True)
+        if os.path.exists(pdf_file):
+            print(f" -> Generated: {pdf_file} ({os.path.getsize(pdf_file)} bytes)")
+print("Done!")

@@ -5,7 +5,7 @@
   --secondary-color: #0f766e;    /* Teal 700 */
   --accent-color: #0284c7;       /* Sky 600 */
   --text-color: #1e293b;         /* Slate 800 - alta nitidez e contraste */
-  --text-muted: #64748b;         /* Slate 500 */
+  --text-muted: #475569;         /* Slate 600 */
   --border-color: #cbd5e1;       /* Slate 300 */
   --bg-color: #f1f5f9;           /* Slate 100 */
   --card-bg: #ffffff;
@@ -17,17 +17,16 @@
   padding: 0;
 }
 
-/* Tipografia Nativa Segoe UI / Arial: 
-   Elimina o problema de "stem darkening" / letras l e I grossas no PDF do Chrome */
+/* Tipografia Nativa Arial / Helvetica:
+   Padrão universal e infalível para PDFs vetoriais sem distorção de hastes verticais (L, I, l, i) */
 body {
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, 'Helvetica Neue', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--text-color);
   background-color: var(--bg-color);
-  line-height: 1.35;
-  font-size: 9pt;
+  line-height: 1.36;
+  font-size: 9.2pt;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Barra de Navegação e Controles (Oculta na Impressão) */
@@ -127,7 +126,7 @@ body {
 .cv-container > p:first-of-type {
   font-size: 10pt;
   color: var(--secondary-color);
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 4px;
 }
 
@@ -166,7 +165,7 @@ body {
 }
 
 .cv-container strong {
-  font-weight: 600;
+  font-weight: 700;
   color: #0f172a;
 }
 
@@ -212,7 +211,7 @@ body {
     background-color: #fff !important;
     color: #111827 !important;
     font-size: 8.8pt;
-    font-family: 'Segoe UI', Arial, 'Helvetica Neue', sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     text-rendering: geometricPrecision !important;
     -webkit-font-smoothing: antialiased !important;
   }
