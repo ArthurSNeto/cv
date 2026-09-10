@@ -1,73 +1,62 @@
-# Guia de Otimização do Perfil no LinkedIn
+# Guia de Otimização do Perfil no LinkedIn (Calibrado para os Limites da Plataforma)
 
 **Candidato:** Arthur Santos Neto  
 **URL do Perfil:** [linkedin.com/in/arthursneto](https://linkedin.com/in/arthursneto)  
-**Objetivo:** Maximizar a visibilidade no LinkedIn Recruiter, alinhar o posicionamento com os currículos atualizados e transmitir autoridade técnica sênior.
+**Status de Limites:** 
+* **Sobre:** 2.285 caracteres *(Limite do LinkedIn: 2.600)* ✅
+* **Experiências:** Entre 180 e 1.282 caracteres *(Limite do LinkedIn: 2.000 por cargo)* ✅
 
 ---
 
 ## 1. Título do Perfil (Headline)
 
-O título é o campo de maior peso no algoritmo de busca de recrutadores (*LinkedIn Recruiter*). Ele deve conter os cargos-alvo, as tecnologias centrais e diferenciais.
+> **Opção Recomendada (Ampla & Sênior):**  
+> `Desenvolvedor Fullstack Sênior | C# · .NET Core · Angular · React | Arquitetura de Software & Cloud | IA Generativa`
 
-### Opção 1: Fullstack & Arquitetura (Recomendada - Mais Abrangente)
-```text
-Desenvolvedor Fullstack Sênior | C# · .NET Core · Angular · React | Arquitetura de Software & Cloud | IA Generativa
-```
-
-### Opção 2: Foco em Backend & Alta Performance (Para vagas Backend C#)
-```text
-Desenvolvedor C# / .NET Sênior | Backend & Arquitetura de Software | ASP.NET Core · SQL Server · Cloud · CI/CD
-```
-
-### Opção 3: Foco em Engenharia Moderna & IA
-```text
-Engenheiro de Software Sênior | .NET 8 · Angular · React · SQL Server | Clean Architecture & IA Generativa Aplicada
-```
+*(Se o foco for estritamente Backend C#: `Desenvolvedor C# / .NET Sênior | Backend & Arquitetura de Software | ASP.NET Core · SQL Server · Cloud · CI/CD`)*
 
 ---
 
-## 2. Seção "Sobre" (About)
+## 2. Seção "Sobre" (About) — [2.285 caracteres / Limite: 2.600]
 
-Copie e cole este texto no campo **Sobre** do seu perfil:
+Copie e cole este bloco no campo **Sobre**:
 
 ```text
 Engenheiro de Software com mais de 5 anos de experiência comprovada no desenvolvimento de ponta a ponta de plataformas corporativas de grande escala e missão crítica. Especialista no ecossistema .NET (C#, .NET Core, .NET 6/7/8) no backend e interfaces modernas em Angular (v13 a v17) e React no frontend.
 
-Minha trajetória é marcada por entregas de alto impacto em sistemas distribuídos de grande porte:
-• Atuação no núcleo técnico de plataforma educacional atendendo mais de 2.800 unidades municipais e 438 mil estudantes (Positivo Tecnologia).
-• Refatoração completa de sistema legado para o padrão Clean Architecture em .NET e modernização de frontend para Angular 17, acelerando a entrega de novas features.
-• Otimização de performance de banco de dados SQL Server, reduzindo o tempo de resposta de consultas analíticas e relatórios em 40%.
-• Arquitetura de soluções multi-tenant com bancos segregados e roteamento dinâmico no SQL Server (PrintWayy).
-• Diagnóstico e eliminação de gargalos críticos de latência (Cosmos DB e Redis), reduzindo tempo de carregamento de páginas de >1 minuto para 20-30 segundos.
-• Mentoria técnica e liderança de equipes multidisciplinares (6 a 8 desenvolvedores), promovendo práticas de Clean Code, DDD, testes automatizados e code reviews.
-• Otimização de esteiras de CI/CD automatizadas (AWS e Azure DevOps), reduzindo tempos de build em até 66% (de 15 min para 5 min).
+Destaques de carreira e impacto:
+• Atuação central na plataforma educacional Aprende Brasil, atendendo 2.800+ unidades municipais e 438 mil estudantes (Positivo Tecnologia).
+• Refatoração completa de sistema legado para Clean Architecture (.NET) e migração para Angular 17, acelerando a entrega de novas features.
+• Otimização de performance em SQL Server (views e procedures), reduzindo tempo de resposta de consultas analíticas em 40%.
+• Concepção de arquitetura multi-tenant com bancos segregados e roteamento dinâmico no SQL Server (PrintWayy).
+• Resolução de gargalos críticos de latência (Cosmos DB e Redis), reduzindo tempo de carregamento de páginas de >1min para 20-30s.
+• Liderança técnica e mentoria de 6 a 8 desenvolvedores: Clean Code, DDD, testes automatizados e code review.
+• Criação de pipelines CI/CD automatizadas (AWS e Azure DevOps), reduzindo o tempo de build em 66% (de 15min para 5min).
 
-No período recente, tenho me aprofundado na vanguarda da engenharia de software assistida por IA Generativa (Google Antigravity e GitHub Copilot), aplicando ferramentas de inteligência artificial diretamente na arquitetura, codificação rápida de soluções (React + Vite, extensões para navegadores e rotinas em Python) e automação de rotinas de desenvolvimento.
+No período recente, tenho me dedicado ao aprofundamento prático em IA Generativa (Google Antigravity e GitHub Copilot), aplicando inteligência artificial diretamente no ciclo de desenvolvimento: codificação de soluções (React + Vite, extensão Chrome e rotinas em Python), prototipagem ágil e automações.
 
-Certificado oficialmente pela Microsoft em C# (Exam 483: Programming in C#) e proficiência em inglês nível C1 (EF SET 64/100).
+Certificações e Idiomas:
+• Microsoft Exam 483: Programming in C#
+• EF SET English Certificate: 64/100 (C1 Proficient - Inglês Avançado)
 
-Principais Competências:
-• Backend: C#, .NET 8, .NET 7, .NET 6, .NET Core, ASP.NET Core Web API, Entity Framework Core, Hangfire, OpenIddict, IdentityServer, SignalR.
-• Frontend: Angular (v13 a v17), React, TypeScript, JavaScript (ES6+), RxJS, Kendo UI, HTML5/SCSS.
-• Bancos de Dados & Nuvem: SQL Server (T-SQL, Query Tuning, Stored Procedures), Azure Cosmos DB, Redis, PostgreSQL, Azure DevOps, AWS, Docker.
-• Metodologias & Práticas: Clean Architecture, Domain-Driven Design (DDD), SOLID, Design Patterns, CI/CD, Testes Unitários e de Integração (xUnit, NUnit, Selenium, Postman).
+Stack Principal:
+• Backend: C#, .NET 8/7/6, ASP.NET Core Web API, Entity Framework Core, Hangfire, OpenIddict, IdentityServer, SignalR.
+• Frontend: Angular (13/17), React, TypeScript, RxJS, Kendo UI, Vite, HTML5/SCSS.
+• Banco de Dados & Cloud: SQL Server (T-SQL, Tuning), Cosmos DB, Redis, PostgreSQL, Azure DevOps, AWS, Docker.
+• Boas Práticas: Clean Architecture, DDD, SOLID, Design Patterns, CI/CD, Testes (xUnit, NUnit, Selenium, Postman).
 
-Buscando oportunidades como Desenvolvedor Fullstack Sênior, Desenvolvedor Backend C# Sênior ou Desenvolvedor Angular Sênior (Remoto ou Híbrido).
-
+Buscando oportunidades como Desenvolvedor Fullstack Sênior, Desenvolvedor C# Sênior ou Angular Sênior (Remoto / Híbrido).
 Contato: arthursan.neto@gmail.com | github.com/ArthurSNeto
 ```
 
 ---
 
-## 3. Seção "Experiência" (Work Experience)
+## 3. Seção "Experiência" (Work Experience) — [Todas < 2.000 caracteres]
 
-Atualize cada cargo exatamente com os textos abaixo para manter 100% de consistência com os seus currículos:
-
-### 1. Projetos Próprios & IA Generativa
+### 1. Projetos Próprios & IA Generativa [732 caracteres]
 * **Cargo:** Desenvolvedor de Software
 * **Nome da empresa:** Projetos Próprios & Pesquisa Aplicada
-* **Tipo de emprego:** Autônomo / Tempo integral
+* **Tipo de emprego:** Autônomo
 * **Período:** Março de 2025 – O momento
 * **Localidade:** Lages, Santa Catarina, Brasil (Remoto)
 * **Descrição:**
@@ -77,11 +66,9 @@ Período dedicado a estudos avançados de engenharia de software e desenvolvimen
 • Desenvolvimento de extensão para navegador (Chrome Extension) voltada para automação web e gestão dinâmica de cookies e sessões.
 • Implementação de rotinas em Python para processamento automatizado, extração e leitura de dados de livros e documentos digitais.
 • Utilização intensiva de IA Generativa (Google Antigravity e GitHub Copilot) em todo o ciclo de desenvolvimento: implementação de código, refatoração arquitetural, prototipagem ágil e automações.
-
-Competências: React.js · Vite · Python · Google Antigravity · GitHub Copilot · Extensões do Google Chrome · TypeScript · C#
 ```
 
-### 2. Positivo Tecnologia
+### 2. Positivo Tecnologia [1.282 caracteres]
 * **Cargo:** Desenvolvedor Fullstack Sênior
 * **Nome da empresa:** Positivo Tecnologia
 * **Período:** Outubro de 2023 – Março de 2025 (1 ano 6 meses)
@@ -96,11 +83,9 @@ Atuação no núcleo técnico da plataforma educacional Aprende Brasil, atendend
 • Otimização profunda de stored procedures e views em SQL Server, gerando melhoria de 40% no tempo de resposta de relatórios analíticos.
 • Migração de repositórios legados (AWS) para Azure DevOps, criando pipelines de CI/CD automatizados que reduziram o tempo de build de 15 min para 5 min (66% de ganho de eficiência).
 • Monitoramento de confiabilidade em produção com Application Insights, condução de code reviews e mentoria técnica para a equipe.
-
-Competências: .NET 7 · C# · Angular 17 · React.js · Entity Framework · Microsoft SQL Server · Azure DevOps · Clean Architecture · CI/CD
 ```
 
-### 3. PrintWayy (Sistema Sunbird)
+### 3. PrintWayy — Sistema Sunbird [834 caracteres]
 * **Cargo:** Desenvolvedor Fullstack Sênior
 * **Nome da empresa:** PrintWayy
 * **Período:** Maio de 2021 – Março de 2023 (1 ano 9 meses)
@@ -111,13 +96,11 @@ Liderança técnica e desenvolvimento fullstack da plataforma corporativa Sunbir
 • Design e implementação de arquitetura multi-tenant com bancos de dados SQL Server segregados por cliente e roteamento dinâmico de conexões baseado no usuário autenticado.
 • Implementação de servidor de autenticação centralizado com Identity Server e OpenIddict (OAuth2 / OpenID Connect).
 • Orquestração de tarefas assíncronas em background e processamento de alto volume com Hangfire.
-• Liderança técnica e mentoria de equipe de 6 a 8 desenvolvedores: condução de reuniões arquiteturais, code review rigoroso e contratação técnica.
+• Atuação na liderança técnica e mentoria de equipe de 6 a 8 desenvolvedores: condução de reuniões arquiteturais, code review rigoroso e contratação técnica.
 • Configuração de pipelines de CI/CD no Azure DevOps para múltiplos ambientes e governança de logs com Application Insights e Elasticsearch.
-
-Competências: .NET 6 · C# · Angular 13 · TypeScript · Microsoft SQL Server · OpenIddict · Hangfire · Azure DevOps · Arquitetura Multi-tenant
 ```
 
-### 4. PrintWayy (Sistema Dragon)
+### 4. PrintWayy — Sistema Dragon [379 caracteres]
 * **Cargo:** Desenvolvedor Fullstack Pleno
 * **Nome da empresa:** PrintWayy
 * **Período:** Novembro de 2020 – Maio de 2021 (7 meses)
@@ -127,11 +110,9 @@ Competências: .NET 6 · C# · Angular 13 · TypeScript · Microsoft SQL Server 
 Desenvolvimento fullstack e sustentação no Dragon, plataforma legada de monitoramento em larga escala baseada em ASP.NET MVC 4 e Kendo UI:
 • Instrumentação customizada de caminhos críticos de código para diagnóstico de gargalos de I/O em Cosmos DB e Redis.
 • Otimização de rotinas que reduziram o tempo de carregamento de páginas críticas de mais de 1 minuto para 20-30 segundos.
-
-Competências: ASP.NET MVC · C# · Microsoft SQL Server · Azure Cosmos DB · Redis · Kendo UI · Azure DevOps
 ```
 
-### 5. NDD (ndd Print 360)
+### 5. NDD — ndd Print 360 [682 caracteres]
 * **Cargo:** Desenvolvedor Fullstack Júnior
 * **Nome da empresa:** NDD
 * **Período:** Outubro de 2018 – Novembro de 2020 (2 anos 2 meses)
@@ -143,11 +124,9 @@ Desenvolvimento fullstack (.NET Core e .NET Framework) do portal corporativo ndd
 • Construção e execução de testes automatizados (unitários e de integração com xUnit, NUnit, Moq e testes E2E com Selenium WebDriver) integrados às esteiras de CI/CD (TFS e Azure DevOps).
 • Criação de instalador empresarial (.msi) via WixSharp com suporte a múltiplos idiomas (PT/EN/ES) e contribuição ao projeto open-source.
 • Condução de estudo técnico de viabilidade e arquitetura de dados para migração de relatórios analíticos para SQL Server Analysis Services (SSAS).
-
-Competências: .NET Core · C# · Angular · Selenium WebDriver · NUnit · Microsoft SQL Server · TFS · Azure DevOps · SOLID
 ```
 
-### 6. NDD (Trainee)
+### 6. NDD — Trainee [180 caracteres]
 * **Cargo:** Desenvolvedor Trainee
 * **Nome da empresa:** NDD
 * **Período:** Fevereiro de 2018 – Outubro de 2018 (9 meses)
@@ -155,51 +134,4 @@ Competências: .NET Core · C# · Angular · Selenium WebDriver · NUnit · Micr
 * **Descrição:**
 ```text
 Formação intensiva em engenharia de software: desenvolvimento backend em .NET Framework, frontend em Angular, APIs RESTful, padrão arquitetural N-Tier e testes unitários com NUnit.
-
-Competências: .NET Framework · C# · Angular · RESTful APIs · Microsoft SQL Server · NUnit
 ```
-
----
-
-## 4. Seção "Licenças e Certificados" (Licenses & Certifications)
-
-Cadastre exatamente as duas certificações com seus nomes e emissores oficiais:
-
-1. **Microsoft Exam 483: Programming in C#**
-   * Emissor: Microsoft
-   * Data de emissão: (Ano da realização)
-2. **EF SET English Certificate — C1 Proficient (64/100)**
-   * Emissor: EF Standard English Test (EF SET)
-   * Data de emissão: (Ano da realização)
-   * Link da credencial: (Insira o link oficial do seu certificado da EF SET)
-
----
-
-## 5. Top 5 Competências Principais (Skills)
-
-No LinkedIn, você pode fixar as **5 principais competências** no topo da seção de habilidades para receber recomendações e subir nos filtros de busca:
-1. **.NET / C#**
-2. **Angular**
-3. **Microsoft SQL Server**
-4. **Clean Architecture**
-5. **Azure DevOps**
-
-*(Outras competências essenciais para adicionar à lista geral: React.js, TypeScript, REST APIs, CI/CD, Entity Framework Core, DDD, Python, Selenium WebDriver, IA Generativa)*.
-
----
-
-## 6. Configuração da Opção "Open to Work" (Interesse em Vagas)
-
-Na seção **"Tenho interesse em" -> "Encontrar um novo emprego"**:
-* **Cargos de interesse:**
-  * Desenvolvedor Fullstack Sênior
-  * Desenvolvedor .NET Sênior / Desenvolvedor C# Sênior
-  * Desenvolvedor Angular Sênior
-  * Engenheiro de Software Sênior
-  * QA Analyst / Analista de Testes Pleno
-* **Localidades de trabalho:**
-  * Remoto
-  * Brasil (Remoto)
-  * Lages, Santa Catarina, Brasil (Híbrido)
-* **Tipos de emprego:** Tempo integral, PJ, CLT.
-* **Visibilidade:** *"Apenas recrutadores"* (Recomendado se quiser manter discreto) ou *"Todos os membros do LinkedIn"* (com a moldura verde `#OpenToWork`).
