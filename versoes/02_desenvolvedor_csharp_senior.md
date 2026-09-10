@@ -9,9 +9,9 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 Engenheiro de Software Backend Sênior especializado no ecossistema **.NET (C#, .NET Core, .NET 6/7/8)** com **5+ anos de experiência comprovada** na construção de APIs de alta performance, serviços distribuídos e arquiteturas de missão crítica. Domínio avançado em **Clean Architecture, Domain-Driven Design (DDD), princípios SOLID e Design Patterns**, com histórico em concepção de arquiteturas **multi-tenant** com isolamento físico de bancos e roteamento dinâmico.
 
-Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (**Cosmos DB, Redis**). Experiência consistente em liderança técnica (mentoria de 6 a 8 desenvolvedores), automação de esteiras CI/CD no **Azure DevOps** e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a engenharia de software e a cobertura de testes.
+Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (**Cosmos DB, Redis**). Experiência consistente em mentoria técnica de desenvolvedores (6 a 8 devs), automação de esteiras CI/CD no **Azure DevOps** e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a engenharia de software e a cobertura de testes.
 
-**Principais Competências:** C# (.NET 6/7/8 / .NET Core) · ASP.NET Core Web API · Entity Framework Core · SQL Server (T-SQL, Otimização de Performance) · Multi-tenancy · Identity Server & OpenIddict · Hangfire · Azure DevOps (CI/CD) · DDD & Clean Architecture · xUnit / NUnit / Moq · Redis · Application Insights
+**Principais Competências:** C# (.NET 6/7/8 / .NET Core) · ASP.NET Core Web API · Entity Framework Core · SQL Server (T-SQL, Tuning) · Multi-tenancy · Identity Server & OpenIddict · Hangfire · Azure DevOps (CI/CD) · DDD & Clean Architecture · xUnit / NUnit / Moq · Redis · Application Insights
 
 ---
 
@@ -25,35 +25,34 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 - Desenvolvimento de PoCs (Provas de Conceito) com foco em escalabilidade, concorrência e processamento assíncrono.
 *Stack: C#, .NET 8, ASP.NET Core, Entity Framework Core, SQL Server, Clean Architecture, REST APIs, GitHub Copilot, Google Antigravity.*
 
-### Desenvolvedor de Software Sênior (.NET / Backend) — Positivo Tecnologia
+### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)
-- Engenheiro backend central na plataforma educacional *Aprende Brasil*, atendendo escala massiva de **2.800+ unidades municipais e mais de 438 mil estudantes**.
-- Arquitetura e desenvolvimento de novas funcionalidades e serviços em **.NET 7**, Entity Framework Core e SQL Server para suportar fluxos transacionais e analíticos de alto volume.
+- Atuação no núcleo técnico da plataforma educacional *Aprende Brasil*, atendendo escala de **2.800+ unidades municipais e mais de 438 mil estudantes**.
+- Refatoração do sistema de gestão pedagógica: reestruturação completa do backend (.NET) para o padrão **Clean Architecture**, elevando a manutenibilidade e reduzindo significativamente o tempo de desenvolvimento de novas features.
+- Arquitetura e implementação de novos módulos e serviços em **.NET 7**, Entity Framework Core e SQL Server para fluxos transacionais e analíticos de alto volume.
 - Análise de execução, profiling e refatoração profunda de stored procedures e views em SQL Server, obtendo **40% de redução no tempo de resposta** em relatórios analíticos essenciais.
-- Consolidação da infraestrutura de repositórios legados (AWS) para o **Azure DevOps**, arquitetando pipelines automatizados de build e release CI/CD com **redução do tempo de build de 15 min para 5 min** (otimização de 66%).
-- Refatoração de autenticação e segurança de serviço legado PHP/Laravel e condução de deploy em ambiente Linux (VM), resolvendo integrações de rede e infraestrutura de produção.
-- Observabilidade e monitoramento de saúde de serviços em produção utilizando Azure Application Insights, gerindo deploys multi-ambiente com zero downtime.
-- Condução de code reviews, definição de padrões de qualidade de código e mentoria técnica para o time de desenvolvimento.
-*Stack: C#, .NET 7, .NET Framework, Entity Framework Core, SQL Server (T-SQL, Stored Procedures), Azure DevOps, Application Insights, Hangfire, Git.*
+- Consolidação de repositórios legados (AWS para **Azure DevOps**), arquitetando pipelines automatizados de CI/CD com **redução do build de 15 min para 5 min** (66% de ganho).
+- Implementação de autenticação em aplicação legada PHP/Laravel e condução de deploy em servidor Linux (VM).
+- Observabilidade em produção com Application Insights, condução de code reviews rigorosos e mentoria técnica para o time.
+*Stack: C#, .NET 7, Entity Framework Core, SQL Server (T-SQL), Azure DevOps, Application Insights, Hangfire, Angular 17, Git.*
 
-### Desenvolvedor de Software Sênior (Tech Lead .NET) — PrintWayy (Sistema Sunbird)
+### Desenvolvedor Fullstack Sênior — PrintWayy (Sistema Sunbird)
 **Mai 2021 – Mar 2023 (1 ano 9 meses)** | Remoto
-- Responsável pela arquitetura técnica e liderança de engenharia da plataforma corporativa *Sunbird*, sistema de bilhetagem e monitoramento de ativos de impressão corporativos.
-- Arquitetura de backend completa em **.NET 6 / C#**, aplicando Domain-Driven Design (DDD), separação de responsabilidades e padrões de resiliência.
-- Design e implementação de arquitetura **multi-tenant** com separação física de bancos de dados SQL Server por cliente, com lógica de resolução dinâmica de connection strings baseada no contexto do token JWT do usuário autenticado.
-- Implementação de servidor de autenticação centralizado com **Identity Server e OpenIddict** (OAuth2 / OpenID Connect), garantindo segurança e granularidade de permissões.
-- Orquestração de tarefas em background e processamento assíncrono de alto volume utilizando **Hangfire**.
-- Liderança técnica de equipe de **6 a 8 desenvolvedores**, respondendo por decisões arquiteturais, revisão rigorosa de código, testes de aderência e mentoria contínua.
+- Responsável pela arquitetura de backend da plataforma corporativa *Sunbird* (bilhetagem e gestão de impressão corporativa) em **.NET 6 / C#**.
+- Design e implementação de arquitetura **multi-tenant** com isolamento físico de bancos de dados SQL Server por cliente e roteamento dinâmico de conexão baseado no token JWT.
+- Implementação de servidor de autenticação centralizado com **Identity Server e OpenIddict** (OAuth2 / OpenID Connect).
+- Orquestração de tarefas assíncronas em background e processamento distribuído com **Hangfire**.
+- Atuação na liderança técnica e mentoria de equipe de **6 a 8 desenvolvedores**: alinhamento arquitetural, revisão rigorosa de código e testes.
 - Estruturação de pipelines de CI/CD completas no Azure DevOps e governança de logs estruturados com Application Insights e Elasticsearch.
-*Stack: C#, .NET 6, ASP.NET Core, Entity Framework Core, SQL Server, Identity Server, OpenIddict, Hangfire, Azure DevOps, Application Insights, Elasticsearch.*
+*Stack: C#, .NET 6, ASP.NET Core, Entity Framework Core, SQL Server, Identity Server, OpenIddict, Hangfire, Azure DevOps, Application Insights.*
 
-### Desenvolvedor de Software — PrintWayy (Sistema Dragon)
+### Desenvolvedor Fullstack Pleno — PrintWayy (Sistema Dragon)
 **Nov 2020 – Mai 2021 (7 meses)** | Remoto
 - Evolução e manutenção de backend em ASP.NET MVC 4 integrado a SQL Server, Redis e Cosmos DB em ecossistema de missão crítica.
-- Implementação de diagnósticos avançados e instrumentação de caminhos críticos (Stopwatch profiling), identificando e corrigindo gargalos severos de latência no Cosmos DB, **reduzindo o tempo de carregamento de páginas críticas de >60s para 20-30s**.
+- Implementação de diagnósticos avançados e instrumentação de caminhos críticos (Stopwatch profiling), identificando e corrigindo gargalos severos no Cosmos DB, **reduzindo o tempo de carregamento de páginas críticas de >60s para 20-30s**.
 *Stack: C#, ASP.NET MVC 4, Entity Framework, SQL Server, Azure Cosmos DB, Redis, Azure DevOps.*
 
-### Desenvolvedor de Software Pleno (.NET) — NDD (ndd Print 360)
+### Desenvolvedor Fullstack Júnior — NDD (ndd Print 360)
 **Out 2018 – Nov 2020 (2 anos 2 meses)** | Lages, SC
 - Desenvolvimento de backend em .NET Core e .NET Framework para a plataforma de gestão *ndd Print 360*, com foco em DDD, SOLID e Clean Code.
 - Automação de testes unitários e de integração com **xUnit, NUnit e Moq**, com validação automática integrada nas pipelines de CI/CD (TFS e Azure DevOps).
@@ -80,7 +79,7 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 
 - **Linguagens:** C# (Avançado / Especialista), SQL (T-SQL Avançado), TypeScript, JavaScript, PHP.
 - **Ecossistema .NET:** .NET 8, .NET 7, .NET 6, .NET Core, .NET Framework, ASP.NET Core Web API, Entity Framework Core, LINQ, Dapper, SignalR, Hangfire, WixSharp.
-- **Arquitetura & Engenharia:** Clean Architecture, Domain-Driven Design (DDD), Microservices, Multi-tenancy com isolamento de dados, SOLID, Design Patterns, CQRS, Event-Driven patterns.
+- **Arquitetura & Engenharia:** Clean Architecture, Domain-Driven Design (DDD), Microservices, Multi-tenancy, SOLID, Design Patterns, CQRS, Resiliência.
 - **Autenticação & Segurança:** Identity Server, OpenIddict, OAuth2, OpenID Connect, JWT, Gestão de Roles e Claims.
 - **Bancos de Dados:** SQL Server (Query Optimization, Stored Procedures, Views, Índices, Execution Plans), PostgreSQL, Azure Cosmos DB, Redis (Distributed Cache).
 - **Testes & Qualidade:** Testes Unitários e de Integração (xUnit, NUnit, Moq), TDD, Code Review.

@@ -25,7 +25,7 @@ for v_id, fname, label, pdf_name in versions_info:
     html_content = markdown.markdown(md_text, extensions=['tables', 'nl2br'])
     
     # Inject page break before Dragon / mid-experience to guarantee clean 2-page split
-    target_heading = "<h3>Desenvolvedor de Software — PrintWayy (Sistema Dragon)</h3>"
+    target_heading = "<h3>Desenvolvedor Fullstack Pleno — PrintWayy (Sistema Dragon)</h3>"
     if target_heading in html_content:
         html_content = html_content.replace(target_heading, f'<div class="page-break"></div>\n{target_heading}')
     elif "PrintWayy (Sistema Dragon)" in html_content:

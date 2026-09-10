@@ -25,34 +25,35 @@ Experiência prática no desenvolvimento de testes ponta a ponta (E2E) com **Sel
 - Aplicação prática de Inteligência Artificial Generativa (GitHub Copilot, Google Antigravity) para aceleração na escrita de testes unitários e de integração, além de sintetização de massas de dados de teste (*mock data*).
 *Stack: C#, .NET 8, Postman, xUnit, Selenium, TypeScript, GitHub Copilot, Google Antigravity.*
 
-### Desenvolvedor de Software (Foco em Integração de APIs & Qualidade) — Positivo Tecnologia
+### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)
-- Atuação como desenvolvedor no núcleo técnico da plataforma educacional *Aprende Brasil*, impactando mais de **2.800 unidades de ensino e 438 mil estudantes**.
-- Desenvolvimento e validação de testes de integração em serviços críticos em .NET 7 e React, incluindo cenários complexos de manipulação e marcação de imagens de provas.
-- Validação e testes de APIs RESTful utilizando Postman e suítes em C#, garantindo comunicação íntegra entre microsserviços e integrações externas.
-- Execução de testes de consistência e integridade de dados em stored procedures e views analíticas no SQL Server, assegurando precisão em relatórios e **redução de 40% no tempo de resposta**.
-- Integração de validações automatizadas de testes nas esteiras de **CI/CD no Azure DevOps**, auxiliando na redução do tempo de feedback de build de 15 minutos para 5 minutos.
-- Condução de revisões técnicas de código (*Code Review*) focadas em manutenibilidade, cobertura de testes e prevenção precoce de bugs (*Shift-Left Testing*).
-*Stack: C#, .NET 7, SQL Server, Postman, React, Azure DevOps, Application Insights, Git, Hangfire.*
+- Atuação como desenvolvedor sênior no núcleo da plataforma educacional *Aprende Brasil*, atendendo mais de **2.800 unidades de ensino e 438 mil estudantes**.
+- Refatoração do sistema de gestão pedagógica para Clean Architecture (.NET) e migração para Angular 17, estabelecendo padrões arquiteturais com alta testabilidade e menor propensão a bugs.
+- Desenvolvimento e validação de testes de integração em serviços críticos em .NET 7 e React, incluindo cenários complexos de manipulação e marcação de imagens de avaliações.
+- Validação e testes de APIs RESTful via Postman e suítes em C#, garantindo conformidade de contratos e comunicação íntegra entre serviços.
+- Execução de testes de integridade de dados em stored procedures e views analíticas no SQL Server, assegurando precisão em relatórios e **redução de 40% no tempo de resposta**.
+- Integração de validações de testes nas esteiras de **CI/CD no Azure DevOps**, reduzindo o ciclo de feedback de build de 15 minutos para 5 minutos.
+- Condução de revisões técnicas de código (*Code Review*) focadas em prevenção precoce de defeitos (*Shift-Left Testing*).
+*Stack: C#, .NET 7, SQL Server, Postman, React, Angular 17, Azure DevOps, Application Insights, Git, Hangfire.*
 
-### Desenvolvedor de Software (Backend & Arquitetura) — PrintWayy (Sistema Sunbird)
+### Desenvolvedor Fullstack Sênior — PrintWayy (Sistema Sunbird)
 **Mai 2021 – Mar 2023 (1 ano 9 meses)** | Remoto
-- Desenvolvimento e arquitetura de backend da plataforma corporativa de bilhetagem *Sunbird* em **.NET 6 / C#**.
+- Desenvolvimento e arquitetura fullstack da plataforma corporativa *Sunbird* em **.NET 6 / C#** e **Angular 13**.
 - Contato com conceitos e práticas de testes BDD utilizando **SpecFlow**, alinhando cenários de negócio com requisitos técnicos da aplicação.
-- Implementação de testes unitários e de lógica de domínio em C# com xUnit e Moq, definindo diretrizes de qualidade para o time.
+- Implementação de testes unitários e de lógica de domínio em C# com xUnit e Moq, definindo diretrizes de qualidade para a equipe.
 - Validação técnica e de integração de fluxos críticos de autenticação e autorização multi-tenant com Identity Server e tokens OAuth2.
 - Configuração de *quality gates* automatizados nas esteiras de CI/CD do Azure DevOps para impedir a publicação de versões com falhas de compilação ou testes quebrados.
 - Diagnóstico e investigação de causas raízes (*Root Cause Analysis*) de erros em produção utilizando Application Insights e Elasticsearch.
 *Stack: C#, .NET 6, xUnit, Moq, Postman, SQL Server, SpecFlow (conceitos), Identity Server, Azure DevOps, Application Insights.*
 
-### Desenvolvedor de Software — PrintWayy (Sistema Dragon)
+### Desenvolvedor Fullstack Pleno — PrintWayy (Sistema Dragon)
 **Nov 2020 – Mai 2021 (7 meses)** | Remoto
 - Análise de comportamento e testes de performance de caminhos críticos de código em plataforma legada (ASP.NET MVC 4).
 - Instrumentação customizada para identificação de gargalos de rede e I/O no Cosmos DB e Redis, validando melhorias que **reduziram o tempo de carregamento de telas críticas de mais de 1 minuto para 20-30 segundos**.
 - Execução de testes manuais exploratórios e validação de correções de bugs antes de deploys em produção.
 *Stack: C#, ASP.NET MVC, Cosmos DB, Redis, SQL Server, Kendo UI, Azure DevOps.*
 
-### Desenvolvedor de Software Pleno (Testes Automatizados E2E & Dev) — NDD (ndd Print 360)
+### Desenvolvedor Fullstack Júnior — NDD (ndd Print 360)
 **Out 2018 – Nov 2020 (2 anos 2 meses)** | Lages, SC
 - Criação e manutenção de suítes de **automação de testes ponta a ponta (E2E) com Selenium WebDriver**, validando jornadas críticas de usuários no portal corporativo *ndd Print 360*.
 - Desenvolvimento e execução de **testes de integração e testes unitários em C# com NUnit e Moq** no backend .NET Core e .NET Framework.
@@ -61,7 +62,7 @@ Experiência prática no desenvolvimento de testes ponta a ponta (E2E) com **Sel
 - Validação de integridade e consistência de dados em relatórios analíticos gerados com SQL Server e SSAS.
 *Stack: Selenium WebDriver (E2E), NUnit, xUnit, Moq, .NET Core, C#, Angular, SQL Server, TFS, Azure DevOps, PowerShell.*
 
-### Trainee de Desenvolvimento & Testes — NDD
+### Desenvolvedor Trainee — NDD
 **Fev 2018 – Out 2018 (9 meses)** | Lages, SC
 - Formação em boas práticas de engenharia de software e testes de software: criação de testes unitários com NUnit em C#/.NET Framework, cobertura de código e consumo de APIs RESTful.
 *Stack: NUnit, C#, .NET Framework, SQL Server, REST APIs.*
