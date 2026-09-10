@@ -7,11 +7,11 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 ## RESUMO PROFISSIONAL
 
-Engenheiro de Software Frontend Sênior com **6+ anos de experiência** especializado na construção de Single Page Applications (SPAs) corporativas de alta complexidade com **Angular (v13+)**, **TypeScript** e **RxJS**. Ampla vivência na estruturação de arquiteturas modulares, componentização reutilizável, gerenciamento reativo de estado, bibliotecas de UI corporativas (**Kendo UI**) e otimização de performance no carregamento de interfaces (*bundle size*, *lazy loading* e renderização).
+Engenheiro de Software Frontend Sênior com **5+ anos de experiência comprovada** especializado na construção de Single Page Applications (SPAs) corporativas de alta complexidade com **Angular (v13+)**, **TypeScript** e **RxJS**. Ampla vivência na estruturação de arquiteturas modulares, componentização reutilizável, gerenciamento reativo de estado, bibliotecas de UI corporativas (**Kendo UI**) e otimização de performance no carregamento de interfaces (*bundle size*, *lazy loading* e renderização).
 
-Diferencia-se por um background sólido em engenharia de software e backend (.NET/C#), permitindo uma integração perfeita e eficiente com APIs RESTful, contratos Swagger/OpenAPI, tratamento seguro de autenticação (OAuth2/JWT via interceptors) e diagnóstico de ponta a ponta. Experiência comprovada em liderança técnica (mentoria de times de 6 a 8 desenvolvedores), automação de testes (unitários e E2E) e esteiras de CI/CD automatizadas (Azure DevOps). Aplica ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a entrega de código limpo, prototipagem ágil e cobertura de testes.
+Sólida base em engenharia de software e backend (.NET/C#), assegurando integração perfeita e eficiente com APIs RESTful, contratos Swagger/OpenAPI, tratamento seguro de autenticação (OAuth2/JWT via interceptors) e diagnóstico de ponta a ponta. Histórico consistente em liderança técnica (mentoria de times de 6 a 8 desenvolvedores), automação de testes e esteiras de CI/CD automatizadas (Azure DevOps). Aplica ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a entrega de código limpo, prototipagem ágil e cobertura de testes.
 
-**Principais Competências:** Angular (13+) · TypeScript · JavaScript (ES6+) · RxJS · Gestão de Estado · HTML5 / SCSS · Kendo UI · Reactive Forms · Consumo de REST APIs · HTTP Interceptors · React · CI/CD (Azure DevOps) · Testes de UI & E2E (Selenium, Jasmine) · IA Generativa Aplicada ao Desenvolvimento
+**Principais Competências:** Angular (13+) · TypeScript · JavaScript (ES6+) · RxJS · Gestão de Estado · HTML5 / SCSS · Kendo UI · Reactive Forms · Consumo de REST APIs · HTTP Interceptors · React · CI/CD (Azure DevOps) · Testes de UI & Integração · IA Generativa Aplicada ao Desenvolvimento
 
 ---
 

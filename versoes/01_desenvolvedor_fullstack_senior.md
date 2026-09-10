@@ -7,11 +7,11 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 ## RESUMO PROFISSIONAL
 
-Engenheiro de Software Fullstack Sênior com **6+ anos de experiência** no desenvolvimento de ponta a ponta de sistemas distribuídos de alta criticidade e escalabilidade. Especialista em ecossistema **.NET (.NET Core, .NET 6/7/8)** no backend e **Angular / React** no frontend, com sólida atuação em arquitetura de microsserviços, multi-tenancy, bancos relacionais (SQL Server) e NoSQL (Cosmos DB, Redis).
+Engenheiro de Software Fullstack Sênior com **5+ anos de experiência comprovada** no desenvolvimento de ponta a ponta de sistemas distribuídos de alta criticidade e escalabilidade. Especialista no ecossistema **.NET (.NET Core, .NET 6/7/8)** no backend e **Angular / React** no frontend, com sólida atuação em arquitetura de microsserviços, multi-tenancy, bancos relacionais (SQL Server) e NoSQL (Cosmos DB, Redis).
 
-Histórico comprovado em liderança técnica de equipes multidisciplinares (6 a 8 desenvolvedores), implementação de esteiras de CI/CD automatizadas (Azure DevOps/AWS) e otimização de performance (reduções de até 66% em tempo de build e 40% em tempo de resposta de banco). Forte vivência na adoção de boas práticas de engenharia: Clean Architecture, DDD, SOLID, Design Patterns e testes automatizados. Na vanguarda da tecnologia, integra ferramentas avançadas de **IA Generativa (GitHub Copilot, Google Antigravity, agentes autônomos)** ao ciclo de desenvolvimento, elevando a produtividade e a qualidade das entregas.
+Histórico consistente em liderança técnica de equipes de desenvolvimento (6 a 8 desenvolvedores), implementação de esteiras de CI/CD automatizadas (Azure DevOps/AWS) e otimização de performance (reduções de até 66% em tempo de build e 40% em tempo de resposta de banco). Forte vivência na adoção de boas práticas de engenharia: Clean Architecture, DDD, SOLID, Design Patterns e testes automatizados. Na vanguarda da tecnologia, integra ferramentas avançadas de **IA Generativa (GitHub Copilot, Google Antigravity, agentes autônomos)** ao ciclo de desenvolvimento para ganho de produtividade e qualidade.
 
-**Principais Competências:** .NET 6/7/8 · C# · ASP.NET Core · Angular 13+ · React · TypeScript · Entity Framework Core · SQL Server · Azure DevOps · CI/CD · REST APIs · Clean Architecture · DDD · Testes Automatizados (xUnit, NUnit, Selenium) · IA Generativa Aplicada ao Desenvolvimento
+**Principais Competências:** .NET 6/7/8 · C# · ASP.NET Core · Angular 13+ · React · TypeScript · Entity Framework Core · SQL Server · Azure DevOps · CI/CD · REST APIs · Clean Architecture · DDD · Testes de Integração e Unitários · IA Generativa Aplicada ao Desenvolvimento
 
 ---
 
@@ -56,7 +56,7 @@ Histórico comprovado em liderança técnica de equipes multidisciplinares (6 a 
 **Out 2018 – Nov 2020 (2 anos 2 meses)** | Lages, SC
 - Desenvolvimento fullstack (.NET Core e .NET Framework) do portal corporativo *ndd Print 360*, aplicando DDD, SOLID e Clean Code.
 - Implementação de componentes de interface ricos utilizando **Angular** e Telerik Kendo UI.
-- Construção de suítes completas de testes automatizados (xUnit, NUnit, Moq e Selenium) integradas a pipelines de integração contínua (TFS e Azure DevOps com scripts PowerShell).
+- Construção de suítes de testes automatizados (testes unitários e de integração com xUnit, NUnit, Moq e testes E2E com Selenium) integradas a pipelines no TFS e Azure DevOps.
 - Criação de instalador de distribuição empresarial (.msi) via WixSharp com suporte a múltiplos idiomas (PT/EN/ES), gerando contribuição aceita pela comunidade open-source.
 - Estudo de viabilidade técnica e arquitetura de ETL para relatórios analíticos utilizando SQL Server Analysis Services (SSAS).
 *Stack: .NET Core, .NET Framework, C#, Angular, Kendo UI, SQL Server, SignalR, Hangfire, xUnit, Selenium, WixSharp, Azure DevOps.*
@@ -92,5 +92,5 @@ Histórico comprovado em liderança técnica de equipes multidisciplinares (6 a 
 ## CERTIFICAÇÕES & IDIOMAS
 
 - **Microsoft Exam 483:** Programming in C#
-- **EF SET English Certificate:** 64/100 — Nível C1 Proficient (Inglês Avançado para Negócios e Engenharia)
+- **EF SET English Certificate:** 64/100 — Nivel C1 Proficient (Ingles Avancado para Negocios e Engenharia)
 - **Português:** Nativo

@@ -34,7 +34,7 @@ Após o filtro do ATS, o Tech Recruiter ou Hiring Manager gasta entre **6 e 10 s
 | **Posicionamento** | *"Buscando desafio [...] como desenvolvedor sênior ou pleno."* | Transmite insegurança técnica para vagas Sênior e risco de *overqualification* para Pleno. | Eliminação dessa ambiguidade. Versões específicas para Sênior e Pleno. |
 | **Inconsistência de Dados** | Inglês como `C2 (75/100)` no resumo/skills e `C1 (64/100)` na certificação. | Risco de reprovação em checagem de veracidade (*background check*). | Padronização universal em **C1 Proficient (64/100)**. |
 | **Links Sociais** | Divergência de URLs entre versões (LinkedIn e GitHub). | Risco de link quebrado ao recrutador clicar ou parser extrair. | Padronização oficial: `linkedin.com/in/arthursneto` e `github.com/ArthurSNeto`. |
-| **Anti-Padrões de Linguagem** | *"primeira experiência com deploy Linux"*, *"estudo em andamento"*. | Linguagem júnior/insegura incompatível com quem tem 6+ anos de bagagem e liderança técnica. | Substituição por linguagem orientada a resultados e competência comprovada. |
+| **Anti-Padrões de Linguagem** | *"primeira experiência com deploy Linux"*, *"estudo em andamento"*. | Linguagem júnior/insegura incompatível com quem tem 5+ anos de experiência comprovada de bagagem e liderança técnica. | Substituição por linguagem orientada a resultados e competência comprovada. |
 | **O "Gap" de 1 ano e 6 meses** | *"Desenvolvedor Autônomo — Estudos e Projetos com IA Generativa"*. | Soa como desemprego prolongado ou hobby acadêmico para o mercado tradicional. | Reposicionamento como **Engenharia de Software Independente / Consultoria Full Stack & IA Aplicada**. |
 
 ---
@@ -58,7 +58,7 @@ Você desenvolveu aplicações completas, extensões para navegadores, landing p
   - Desenvolvimento de provas de conceito (PoCs) e arquiteturas escaláveis aplicando princípios SOLID, Clean Architecture e boas práticas de observabilidade e segurança.
 
 #### Como explicar em entrevistas (Storytelling de Sucesso):
-> *"Após mais de 6 anos contínuos liderando e desenvolvendo plataformas críticas de grande porte na Positivo e PrintWayy, decidi dedicar o último período a atuar como engenheiro de software independente e aprofundar minha especialização prática na maior disrupção da nossa indústria: a engenharia de software acelerada por IA. Criei soluções completas de ponta a ponta com .NET e Angular, explorei novos paradigmas com agentes autônomos e integrei essas ferramentas para multiplicar minha capacidade de entrega e qualidade de código. Agora, busco levar essa bagagem consolidada de arquitetura, liderança e produtividade avançada para um time de engenharia de ponta."*
+> *"Após mais de 5 anos contínuos liderando e desenvolvendo plataformas críticas de grande porte na Positivo e PrintWayy, decidi dedicar o último período a atuar como engenheiro de software independente e aprofundar minha especialização prática na maior disrupção da nossa indústria: a engenharia de software acelerada por IA. Criei soluções completas de ponta a ponta com .NET e Angular, explorei novos paradigmas com agentes autônomos e integrei essas ferramentas para multiplicar minha capacidade de entrega e qualidade de código. Agora, busco levar essa bagagem consolidada de arquitetura, liderança e produtividade avançada para um time de engenharia de ponta."*
 
 ---
 

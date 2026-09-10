@@ -7,9 +7,9 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 ## RESUMO PROFISSIONAL
 
-Engenheiro de Software Backend Sênior especializado no ecossistema **.NET (C#, .NET Core, .NET 6/7/8)** com mais de **6 anos de experiência** construindo APIs de alta performance, serviços distribuídos e arquiteturas de missão crítica. Forte domínio em **Clean Architecture, Domain-Driven Design (DDD), princípios SOLID e Design Patterns**, com histórico em concepção de arquiteturas **multi-tenant** com bancos isolados e roteamento dinâmico.
+Engenheiro de Software Backend Sênior especializado no ecossistema **.NET (C#, .NET Core, .NET 6/7/8)** com **5+ anos de experiência comprovada** na construção de APIs de alta performance, serviços distribuídos e arquiteturas de missão crítica. Domínio avançado em **Clean Architecture, Domain-Driven Design (DDD), princípios SOLID e Design Patterns**, com histórico em concepção de arquiteturas **multi-tenant** com isolamento físico de bancos e roteamento dinâmico.
 
-Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (**Cosmos DB, Redis**). Experiência comprovada em liderança técnica (mentoria de 6 a 8 desenvolvedores), estruturação de pipelines CI/CD automatizadas no **Azure DevOps** e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a engenharia de software e a garantia de qualidade.
+Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (**Cosmos DB, Redis**). Experiência consistente em liderança técnica (mentoria de 6 a 8 desenvolvedores), automação de esteiras CI/CD no **Azure DevOps** e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a engenharia de software e a cobertura de testes.
 
 **Principais Competências:** C# (.NET 6/7/8 / .NET Core) · ASP.NET Core Web API · Entity Framework Core · SQL Server (T-SQL, Otimização de Performance) · Multi-tenancy · Identity Server & OpenIddict · Hangfire · Azure DevOps (CI/CD) · DDD & Clean Architecture · xUnit / NUnit / Moq · Redis · Application Insights
 
@@ -21,8 +21,8 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 **Mar 2025 – Atual** | Lages, SC (Remoto)
 - Arquitetura e desenvolvimento de backends robustos em C# (.NET 8) com ASP.NET Core, aplicando Clean Architecture, injeção de dependência e padrões RESTful.
 - Concepção de microsserviços e APIs com persistência desacoplada via Entity Framework Core e SQL Server.
-- Pesquisa aplicada e implementação prática de esteiras de engenharia potencializadas por IA Generativa (GitHub Copilot, Google Antigravity e agentes de desenvolvimento autônomo), acelerando a geração de testes unitários, validação de lógica de domínio e refatoração arquitetural.
-- Desenvolvimento de PoCs (Provas de Conceito) focadas em escalabilidade, concorrência e processamento assíncrono.
+- Pesquisa aplicada e implementação prática de esteiras de engenharia potencializadas por IA Generativa (GitHub Copilot, Google Antigravity e agentes autônomos), acelerando geração de testes unitários, validação de lógica de domínio e refatoração arquitetural.
+- Desenvolvimento de PoCs (Provas de Conceito) com foco em escalabilidade, concorrência e processamento assíncrono.
 *Stack: C#, .NET 8, ASP.NET Core, Entity Framework Core, SQL Server, Clean Architecture, REST APIs, GitHub Copilot, Google Antigravity.*
 
 ### Desenvolvedor de Software Sênior (.NET / Backend) — Positivo Tecnologia
@@ -40,7 +40,7 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 **Mai 2021 – Mar 2023 (1 ano 9 meses)** | Remoto
 - Responsável pela arquitetura técnica e liderança de engenharia da plataforma corporativa *Sunbird*, sistema de bilhetagem e monitoramento de ativos de impressão corporativos.
 - Arquitetura de backend completa em **.NET 6 / C#**, aplicando Domain-Driven Design (DDD), separação de responsabilidades e padrões de resiliência.
-- Design e implementação pioneira de arquitetura **multi-tenant** com separação física de bancos de dados SQL Server por cliente, com lógica de resolução dinâmica de connection strings baseada no contexto do token JWT do usuário autenticado.
+- Design e implementação de arquitetura **multi-tenant** com separação física de bancos de dados SQL Server por cliente, com lógica de resolução dinâmica de connection strings baseada no contexto do token JWT do usuário autenticado.
 - Implementação de servidor de autenticação centralizado com **Identity Server e OpenIddict** (OAuth2 / OpenID Connect), garantindo segurança e granularidade de permissões.
 - Orquestração de tarefas em background e processamento assíncrono de alto volume utilizando **Hangfire**.
 - Liderança técnica de equipe de **6 a 8 desenvolvedores**, respondendo por decisões arquiteturais, revisão rigorosa de código, testes de aderência e mentoria contínua.
@@ -56,14 +56,14 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 ### Desenvolvedor de Software Pleno (.NET) — NDD (ndd Print 360)
 **Out 2018 – Nov 2020 (2 anos 2 meses)** | Lages, SC
 - Desenvolvimento de backend em .NET Core e .NET Framework para a plataforma de gestão *ndd Print 360*, com foco em DDD, SOLID e Clean Code.
-- Automação abrangente de testes unitários e de integração com **xUnit, NUnit e Moq**, com validação automática integrada nas pipelines de CI/CD (TFS e Azure DevOps).
+- Automação de testes unitários e de integração com **xUnit, NUnit e Moq**, com validação automática integrada nas pipelines de CI/CD (TFS e Azure DevOps).
 - Desenvolvimento de instaladores corporativos (.msi) via WixSharp com suporte nativo a múltiplos idiomas (PT/EN/ES) e contribuições para o projeto open-source no GitHub.
 - Condução de estudo técnico de viabilidade e arquitetura de dados para migração de relatórios customizados para SQL Server Analysis Services (SSAS).
 *Stack: C#, .NET Core, .NET Framework, Entity Framework, SignalR, Hangfire, SQL Server, SSAS, xUnit, NUnit, Moq, WixSharp, Azure DevOps.*
 
 ### Desenvolvedor Trainee — NDD
 **Fev 2018 – Out 2018 (9 meses)** | Lages, SC
-- Formação em engenharia backend em C#/.NET Framework: arquitetura N-Tier, APIs RESTful, ORM (Entity Framework) e desenvolvimento orientado a testes (TDD) com NUnit.
+- Formação em engenharia backend em C#/.NET Framework: arquitetura N-Tier, APIs RESTful, ORM (Entity Framework) e desenvolvimento orientado a testes com NUnit.
 *Stack: C#, .NET Framework, Entity Framework, SQL Server, NUnit, REST APIs.*
 
 ---
@@ -83,7 +83,7 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 - **Arquitetura & Engenharia:** Clean Architecture, Domain-Driven Design (DDD), Microservices, Multi-tenancy com isolamento de dados, SOLID, Design Patterns, CQRS, Event-Driven patterns.
 - **Autenticação & Segurança:** Identity Server, OpenIddict, OAuth2, OpenID Connect, JWT, Gestão de Roles e Claims.
 - **Bancos de Dados:** SQL Server (Query Optimization, Stored Procedures, Views, Índices, Execution Plans), PostgreSQL, Azure Cosmos DB, Redis (Distributed Cache).
-- **Testes & Qualidade:** Testes Unitários e de Integração (xUnit, NUnit, Moq), Test-Driven Development (TDD), Code Review.
+- **Testes & Qualidade:** Testes Unitários e de Integração (xUnit, NUnit, Moq), TDD, Code Review.
 - **Cloud & DevOps:** Azure DevOps (Pipelines CI/CD YAML), Azure Application Insights, AWS (EC2, S3, CodeCommit), Docker, Git, Linux VMs.
 - **IA Generativa Aplicada ao Desenvolvimento:** GitHub Copilot, Google Antigravity, agentes de software autônomo (Hermes).
 
