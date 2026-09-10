@@ -9,21 +9,22 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 Profissional de Qualidade de Software (QA) e SDET com **5+ anos de experiência comprovada em desenvolvimento de software** (.NET, C#, SQL Server), aplicando a base de engenharia diretamente na garantia da qualidade, testes automatizados e confiabilidade de sistemas. Especialista em **testes de integração e unitários de APIs RESTful em C# (.NET)**, validação de contratos de integração via **Postman** e testes de consistência de dados em banco relacional (SQL Server).
 
-Experiência prática no desenvolvimento de testes ponta a ponta (E2E) com **Selenium WebDriver** (na NDD) e contato com metodologias BDD (**SpecFlow** na PrintWayy). Forte atuação no paradigma *Shift-Left Testing*, identificando bugs e inconsistências arquiteturais precocemente através de revisões técnicas de código (Code Review). Histórico na validação de plataformas educacionais e corporativas críticas atendendo mais de **438 mil usuários**, análise diagnóstica de performance e integração de testes a pipelines de **CI/CD no Azure DevOps**. Utiliza ferramentas de IA Generativa (GitHub Copilot, Google Antigravity) para geração ágil de dados sintéticos de teste (*mock data*) e cobertura de cenários de borda.
+Experiência prática no desenvolvimento de testes ponta a ponta (E2E) com **Selenium WebDriver** (na NDD) e contato com metodologias BDD (**SpecFlow** na PrintWayy). Forte atuação no paradigma *Shift-Left Testing*, identificando bugs e inconsistências arquiteturais precocemente através de revisões técnicas de código (Code Review). Histórico na validação de plataformas educacionais e corporativas críticas atendendo mais de **438 mil usuários**, análise diagnóstica de performance e integração de testes a pipelines de **CI/CD no Azure DevOps**. No período recente, aprofunda-se em projetos de automação e aplicação de ferramentas de IA Generativa (Google Antigravity, GitHub Copilot).
 
-**Principais Competências:** Testes de Integração de APIs · C# / .NET · Postman (Testes de API & Collections) · xUnit / NUnit / Moq · Testes E2E (Selenium WebDriver) · BDD / SpecFlow (Conceitos) · SQL Server (Validação de Dados) · CI/CD (Azure DevOps) · Shift-Left Testing · Code Review Técnico · IA Generativa Aplicada a Testes
+**Principais Competências:** Testes de Integração de APIs · C# / .NET · Postman (Testes de API & Collections) · xUnit / NUnit / Moq · Testes E2E (Selenium WebDriver) · BDD / SpecFlow (Conceitos) · SQL Server (Validação de Dados) · CI/CD (Azure DevOps) · Shift-Left Testing · Code Review Técnico · IA Generativa Aplicada a Automação
 
 ---
 
 ## EXPERIÊNCIA PROFISSIONAL
 
-### Engenheiro de Software & QA Independente — Consultoria, APIs & Automação com IA
-**Mar 2025 – Atual** | Lages, SC (Remoto)
-- Planejamento e estruturação de estratégias de testes de integração para APIs RESTful desenvolvidas em C# (.NET 8).
-- Criação de coleções no Postman para testes automatizados de endpoints, validação de payloads JSON, autenticação JWT e contratos de integração.
-- Elaboração de planos de teste e cenários funcionais para aplicações web e extensões de navegador.
-- Aplicação prática de Inteligência Artificial Generativa (GitHub Copilot, Google Antigravity) para aceleração na escrita de testes unitários e de integração, além de sintetização de massas de dados de teste (*mock data*).
-*Stack: C#, .NET 8, Postman, xUnit, Selenium, TypeScript, GitHub Copilot, Google Antigravity.*
+### Desenvolvedor de Software — Projetos Próprios & IA Generativa
+**Mar 2025 – Atual** | Lages, SC
+- Período dedicado a estudos avançados de engenharia de software e ao desenvolvimento de projetos autorais com foco em automação.
+- Concepção e desenvolvimento do ecossistema **Arthos**, criando suítes de validação de serviços backend e integrações de dados.
+- Desenvolvimento de **extensão de navegador** (Chrome Extension) voltada para automação de tarefas web e manipulação de cookies/sessões.
+- Implementação de scripts em **Python** para processamento automatizado, extração e validação de dados a partir de livros e textos digitais.
+- Utilização de ferramentas de IA Generativa (**Google Antigravity e GitHub Copilot**) para sintetização de massas de dados de teste (*mock data*) e geração acelerada de testes de integração e unitários.
+*Stack: C#, Python, Chrome Extensions, Postman, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)
@@ -81,11 +82,11 @@ Experiência prática no desenvolvimento de testes ponta a ponta (E2E) com **Sel
 
 - **Foco em Qualidade & Testes:** Testes de Integração de APIs RESTful, Testes Unitários, Testes Funcionais, Testes E2E (Selenium WebDriver), Validação de Contratos, Testes de Regressão, Shift-Left Testing.
 - **Ferramentas de Teste:** Postman (Collections, Environments, Test Scripts), NUnit, xUnit, Moq, Selenium WebDriver, SpecFlow (BDD - conceitos).
-- **Linguagens & Backend:** C# (.NET Core, .NET 6/7/8), SQL (T-SQL), TypeScript, JavaScript.
+- **Linguagens & Backend:** C# (.NET Core, .NET 6/7/8), SQL (T-SQL), Python, TypeScript, JavaScript.
 - **DevOps & Integração Contínua:** Azure DevOps (Quality Gates, Pipelines CI/CD de Testes), TFS, Git, PowerShell.
 - **Bancos de Dados & Validação:** SQL Server (Queries de validação de dados, integridade referencial, stored procedures), Cosmos DB, Redis.
 - **Observabilidade & Diagnóstico:** Azure Application Insights, Elasticsearch, Root Cause Analysis (RCA).
-- **IA Generativa Aplicada a QA:** Geração de casos de teste, massa de dados sintéticos (*mock data*) e automação com GitHub Copilot e Google Antigravity.
+- **IA Generativa Aplicada a QA:** Geração de casos de teste, massa de dados sintéticos (*mock data*) e automação com Google Antigravity e GitHub Copilot.
 
 ---
 

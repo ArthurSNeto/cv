@@ -9,7 +9,7 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 Engenheiro de Software Frontend Sênior com **5+ anos de experiência comprovada** especializado na construção de Single Page Applications (SPAs) corporativas de alta complexidade com **Angular (v13 a v17)**, **TypeScript** e **RxJS**. Ampla vivência na estruturação de arquiteturas modulares, componentização reutilizável, gerenciamento reativo de estado, bibliotecas de UI corporativas (**Kendo UI**) e otimização de performance no carregamento de interfaces (*bundle size*, *lazy loading* e renderização).
 
-Sólida base em engenharia de software e backend (.NET/C#), assegurando integração perfeita com APIs RESTful, contratos Swagger/OpenAPI, tratamento seguro de autenticação (OAuth2/JWT via interceptors) e diagnóstico de ponta a ponta. Histórico consistente em mentoria de desenvolvedores (6 a 8 devs), automação de testes e esteiras de CI/CD automatizadas (Azure DevOps). Aplica ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a entrega de código limpo, prototipagem ágil e cobertura de testes.
+Sólida base em engenharia de software e backend (.NET/C#), assegurando integração perfeita com APIs RESTful, contratos Swagger/OpenAPI, tratamento seguro de autenticação (OAuth2/JWT via interceptors) e diagnóstico de ponta a ponta. Histórico consistente em mentoria de desenvolvedores (6 a 8 devs), automação de testes e esteiras de CI/CD automatizadas (Azure DevOps). Na vanguarda técnica, dedica o período recente ao aprofundamento prático em ferramentas de **IA Generativa (Google Antigravity, GitHub Copilot)** para prototipagem e desenvolvimento de interfaces e automações.
 
 **Principais Competências:** Angular (v13/v17) · TypeScript · JavaScript (ES6+) · RxJS · Gestão de Estado · HTML5 / SCSS · Kendo UI · Reactive Forms · Consumo de REST APIs · HTTP Interceptors · React · CI/CD (Azure DevOps) · Testes de UI & Integração · IA Generativa Aplicada
 
@@ -17,13 +17,14 @@ Sólida base em engenharia de software e backend (.NET/C#), assegurando integra�
 
 ## EXPERIÊNCIA PROFISSIONAL
 
-### Engenheiro de Software Frontend Independente — Soluções Web & IA
-**Mar 2025 – Atual** | Lages, SC (Remoto)
-- Concepção, arquitetura e desenvolvimento de interfaces web responsivas de alta performance em **Angular**, TypeScript e HTML5/SCSS.
-- Desenvolvimento de extensões para navegadores, landing pages de alta conversão e módulos frontend integrados a APIs REST em C#.
-- Implementação de fluxos de trabalho avançados com Inteligência Artificial Generativa (GitHub Copilot, Google Antigravity), acelerando em mais de 50% a prototipagem de componentes de interface, criação de testes automatizados e refatoração de código.
-- Aplicação de boas práticas de componentização, modularidade, acessibilidade (a11y) e design responsivo.
-*Stack: Angular, TypeScript, RxJS, HTML5, SCSS, JavaScript, C# REST APIs, GitHub Copilot, Google Antigravity.*
+### Desenvolvedor de Software — Projetos Próprios & IA Generativa
+**Mar 2025 – Atual** | Lages, SC
+- Período dedicado a estudos avançados e ao desenvolvimento de projetos autorais de software com foco em automação e integração de IA.
+- Concepção e desenvolvimento do sistema **Arthos**, estruturando interfaces web modernas em Angular e serviços de dados.
+- Desenvolvimento de **extensão de navegador** (Chrome Extension) para automação de tarefas web e gestão de sessões e cookies.
+- Implementação de módulo em **Python** para processamento automatizado, extração e leitura de conteúdos de livros digitais.
+- Aplicação prática de ferramentas avançadas de IA Generativa (**Google Antigravity e GitHub Copilot**) para prototipagem rápida de interfaces, refatoração de código e automação de rotinas de desenvolvimento.
+*Stack: Angular, TypeScript, Chrome Extensions, Python, C#, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)
@@ -78,11 +79,11 @@ Sólida base em engenharia de software e backend (.NET/C#), assegurando integra�
 - **Frontend Core:** Angular (v13 a v17), TypeScript, JavaScript (ES6+), RxJS, HTML5, CSS3, SASS/SCSS.
 - **Arquitetura Frontend:** Component-Based Architecture, Lazy Loading, Standalone Components, Reactive Forms, Route Guards, HTTP Interceptors, Gerenciamento Reativo de Estado.
 - **Bibliotecas de UI:** Telerik Kendo UI, Angular Material, Bootstrap, Tailwind CSS, Responsive Web Design.
-- **Outras Tecnologias Web:** React, Razor Pages, Webpack, NPM, consumo de APIs RESTful e WebSockets.
+- **Outras Tecnologias Web:** React, Chrome Extensions, Webpack, NPM, consumo de APIs RESTful e WebSockets.
 - **DevOps & Ferramentas:** Azure DevOps (Pipelines de CI/CD para Frontend), Git, GitHub, Postman, Chrome DevTools, Lighthouse.
 - **Testes & Qualidade:** Testes de Integração e E2E (Selenium), Jasmine, Karma, Code Review, Clean Code.
-- **Conhecimento Complementar (Backend):** C#, ASP.NET Core, SQL Server (facilita alinhamento técnico com times de backend).
-- **IA Generativa Aplicada ao Frontend:** GitHub Copilot, Google Antigravity, prototipagem ágil de UI e testes.
+- **Conhecimento Complementar (Backend):** C#, ASP.NET Core, Python, SQL Server (facilita alinhamento técnico com times de backend).
+- **IA Generativa Aplicada ao Frontend:** Google Antigravity, GitHub Copilot, prototipagem ágil de UI e testes.
 
 ---
 

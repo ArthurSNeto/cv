@@ -9,7 +9,7 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 Engenheiro de Software Backend Sênior especializado no ecossistema **.NET (C#, .NET Core, .NET 6/7/8)** com **5+ anos de experiência comprovada** na construção de APIs de alta performance, serviços distribuídos e arquiteturas de missão crítica. Domínio avançado em **Clean Architecture, Domain-Driven Design (DDD), princípios SOLID e Design Patterns**, com histórico em concepção de arquiteturas **multi-tenant** com isolamento físico de bancos e roteamento dinâmico.
 
-Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (**Cosmos DB, Redis**). Experiência consistente em mentoria técnica de desenvolvedores (6 a 8 devs), automação de esteiras CI/CD no **Azure DevOps** e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (GitHub Copilot, Google Antigravity) para acelerar a engenharia de software e a cobertura de testes.
+Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (**Cosmos DB, Redis**). Experiência consistente em mentoria técnica de desenvolvedores (6 a 8 devs), automação de esteiras CI/CD no **Azure DevOps** e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (Google Antigravity, GitHub Copilot) para acelerar a engenharia de software e automações.
 
 **Principais Competências:** C# (.NET 6/7/8 / .NET Core) · ASP.NET Core Web API · Entity Framework Core · SQL Server (T-SQL, Tuning) · Multi-tenancy · Identity Server & OpenIddict · Hangfire · Azure DevOps (CI/CD) · DDD & Clean Architecture · xUnit / NUnit / Moq · Redis · Application Insights
 
@@ -17,13 +17,14 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 
 ## EXPERIÊNCIA PROFISSIONAL
 
-### Engenheiro de Software Backend C# Independente — Consultoria & Soluções com IA
-**Mar 2025 – Atual** | Lages, SC (Remoto)
-- Arquitetura e desenvolvimento de backends robustos em C# (.NET 8) com ASP.NET Core, aplicando Clean Architecture, injeção de dependência e padrões RESTful.
-- Concepção de microsserviços e APIs com persistência desacoplada via Entity Framework Core e SQL Server.
-- Pesquisa aplicada e implementação prática de esteiras de engenharia potencializadas por IA Generativa (GitHub Copilot, Google Antigravity e agentes autônomos), acelerando geração de testes unitários, validação de lógica de domínio e refatoração arquitetural.
-- Desenvolvimento de PoCs (Provas de Conceito) com foco em escalabilidade, concorrência e processamento assíncrono.
-*Stack: C#, .NET 8, ASP.NET Core, Entity Framework Core, SQL Server, Clean Architecture, REST APIs, GitHub Copilot, Google Antigravity.*
+### Desenvolvedor de Software — Projetos Próprios & IA Generativa
+**Mar 2025 – Atual** | Lages, SC
+- Período dedicado a estudos avançados e ao desenvolvimento de projetos autorais de software com aplicação de IA Generativa.
+- Concepção e desenvolvimento do sistema **Arthos**, estruturando serviços backend em C# / .NET e integrações de dados.
+- Desenvolvimento de **extensão de navegador** (Chrome Extension) voltada para automação web e gestão dinâmica de sessões e cookies.
+- Criação de scripts e módulos em **Python** para processamento automatizado, leitura e extração de conteúdo de livros e documentos digitais.
+- Utilização intensiva de ferramentas de IA Generativa (**Google Antigravity e GitHub Copilot**) para acelerar o ciclo de desenvolvimento, prototipagem de soluções e testes de código.
+*Stack: C#, .NET, Python, Chrome Extensions, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
 **Out 2023 – Mar 2025 (1 ano 6 meses)** | Curitiba, PR (Remoto)
@@ -77,14 +78,14 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 
 ## COMPETÊNCIAS TÉCNICAS
 
-- **Linguagens:** C# (Avançado / Especialista), SQL (T-SQL Avançado), TypeScript, JavaScript, PHP.
+- **Linguagens:** C# (Avançado / Especialista), SQL (T-SQL Avançado), Python, TypeScript, JavaScript, PHP.
 - **Ecossistema .NET:** .NET 8, .NET 7, .NET 6, .NET Core, .NET Framework, ASP.NET Core Web API, Entity Framework Core, LINQ, Dapper, SignalR, Hangfire, WixSharp.
 - **Arquitetura & Engenharia:** Clean Architecture, Domain-Driven Design (DDD), Microservices, Multi-tenancy, SOLID, Design Patterns, CQRS, Resiliência.
 - **Autenticação & Segurança:** Identity Server, OpenIddict, OAuth2, OpenID Connect, JWT, Gestão de Roles e Claims.
 - **Bancos de Dados:** SQL Server (Query Optimization, Stored Procedures, Views, Índices, Execution Plans), PostgreSQL, Azure Cosmos DB, Redis (Distributed Cache).
 - **Testes & Qualidade:** Testes Unitários e de Integração (xUnit, NUnit, Moq), TDD, Code Review.
 - **Cloud & DevOps:** Azure DevOps (Pipelines CI/CD YAML), Azure Application Insights, AWS (EC2, S3, CodeCommit), Docker, Git, Linux VMs.
-- **IA Generativa Aplicada ao Desenvolvimento:** GitHub Copilot, Google Antigravity, agentes de software autônomo (Hermes).
+- **IA Generativa Aplicada ao Desenvolvimento:** Google Antigravity, GitHub Copilot, Agentes de Desenvolvimento, Prototipagem Acelerada.
 
 ---
 
