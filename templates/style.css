@@ -1,11 +1,10 @@
 /* Estilos Gerais & Impressão para Currículos ATS - Padrão Ouro 2 Páginas A4 */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
   --primary-color: #0f172a;      /* Slate 900 */
   --secondary-color: #0f766e;    /* Teal 700 */
   --accent-color: #0284c7;       /* Sky 600 */
-  --text-color: #334155;         /* Slate 700 */
+  --text-color: #1e293b;         /* Slate 800 - alta nitidez e contraste */
   --text-muted: #64748b;         /* Slate 500 */
   --border-color: #cbd5e1;       /* Slate 300 */
   --bg-color: #f1f5f9;           /* Slate 100 */
@@ -18,13 +17,17 @@
   padding: 0;
 }
 
+/* Tipografia Nativa Segoe UI / Arial: 
+   Elimina o problema de "stem darkening" / letras l e I grossas no PDF do Chrome */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, 'Helvetica Neue', sans-serif;
   color: var(--text-color);
   background-color: var(--bg-color);
   line-height: 1.35;
   font-size: 9pt;
+  text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Barra de Navegação e Controles (Oculta na Impressão) */
@@ -116,7 +119,7 @@ body {
   font-size: 20pt;
   font-weight: 700;
   color: var(--primary-color);
-  letter-spacing: -0.5px;
+  letter-spacing: -0.3px;
   text-transform: uppercase;
   margin-bottom: 2px;
 }
@@ -164,7 +167,7 @@ body {
 
 .cv-container strong {
   font-weight: 600;
-  color: #1e293b;
+  color: #0f172a;
 }
 
 .cv-container em {
@@ -207,8 +210,11 @@ body {
 @media print {
   body {
     background-color: #fff !important;
-    color: #000 !important;
+    color: #111827 !important;
     font-size: 8.8pt;
+    font-family: 'Segoe UI', Arial, 'Helvetica Neue', sans-serif !important;
+    text-rendering: geometricPrecision !important;
+    -webkit-font-smoothing: antialiased !important;
   }
 
   .no-print, .instruction-card, .toolbar {
@@ -244,7 +250,7 @@ body {
   li { page-break-inside: avoid; }
 
   a {
-    color: #000 !important;
+    color: #111827 !important;
     text-decoration: none !important;
   }
 }
