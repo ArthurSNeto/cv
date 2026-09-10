@@ -23,7 +23,7 @@ Sólida base em engenharia de software e backend (.NET/C#), assegurando integra�
 - Desenvolvimento de landing page de alta conversão para vendas utilizando **React e Vite**, com foco em performance de renderização, responsividade e experiência do usuário (UX).
 - Desenvolvimento de **extensão de navegador** (Chrome Extension) para automação de tarefas web e gestão de sessões e cookies.
 - Implementação de módulo em **Python** para processamento automatizado, extração e leitura de conteúdos de livros digitais.
-- Aplicação prática de ferramentas avançadas de IA Generativa (**Google Antigravity e GitHub Copilot**) para prototipagem rápida de interfaces, refatoração de código e automação de rotinas de desenvolvimento.
+- Utilização intensiva de IA Generativa (**Google Antigravity e GitHub Copilot**) no desenvolvimento de software: implementação de código frontend e backend, refatoração de interfaces, prototipagem rápida e automações.
 *Stack: React, Vite, Angular, TypeScript, Chrome Extensions, Python, C#, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia

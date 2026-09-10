@@ -9,7 +9,7 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 Engenheiro de Software Fullstack Sênior com **5+ anos de experiência comprovada** no desenvolvimento de ponta a ponta de sistemas distribuídos de alta criticidade e escalabilidade. Especialista no ecossistema **.NET (.NET Core, .NET 6/7/8)** no backend e **Angular / React** no frontend, com sólida atuação em arquitetura de microsserviços, multi-tenancy, bancos relacionais (SQL Server) e NoSQL (Cosmos DB, Redis).
 
-Histórico consistente em liderança técnica e mentoria de equipes (6 a 8 desenvolvedores), implementação de esteiras de CI/CD automatizadas (Azure DevOps/AWS) e otimização de performance (reduções de até 66% em tempo de build e 40% em tempo de resposta de banco). Forte vivência na adoção de boas práticas de engenharia: Clean Architecture, DDD, SOLID, Design Patterns e testes automatizados. Na vanguarda da tecnologia, dedica o período recente ao aprofundamento prático em **IA Generativa (Google Antigravity, GitHub Copilot)** aplicada ao ciclo de desenvolvimento de software.
+Histórico consistente em liderança técnica e mentoria de equipes (6 a 8 desenvolvedores), implementação de esteiras de CI/CD automatizadas (Azure DevOps/AWS) e otimização de performance (reduções de até 66% em tempo de build e 40% em tempo de resposta de banco). Forte vivência na adoção de boas práticas de engenharia: Clean Architecture, DDD, SOLID, Design Patterns e testes automatizados. Na vanguarda da tecnologia, dedica o período recente ao aprofundamento prático em **IA Generativa (Google Antigravity, GitHub Copilot)** aplicada ativamente na escrita, refatoração e arquitetura de software.
 
 **Principais Competências:** .NET 6/7/8 · C# · ASP.NET Core · Angular 13/17 · React (Vite) · TypeScript · Python · Entity Framework Core · SQL Server · Azure DevOps · CI/CD · REST APIs · Clean Architecture · DDD · Testes Automatizados · IA Generativa Aplicada
 
@@ -23,7 +23,7 @@ Histórico consistente em liderança técnica e mentoria de equipes (6 a 8 desen
 - Desenvolvimento de landing page de alta conversão para vendas, utilizando **React e Vite**, com foco em alta performance, responsividade e SEO.
 - Desenvolvimento de **extensão de navegador** (Chrome Extension) voltada para automação web e gestão dinâmica de cookies e sessões.
 - Implementação de módulo em **Python** para processamento automatizado, extração e leitura de dados de livros e documentos digitais.
-- Aprofundamento prático em fluxos de trabalho assistidos por IA (**Google Antigravity e GitHub Copilot**), aplicando prototipagem rápida, aceleradores de código e automações em todas as fases do desenvolvimento.
+- Utilização intensiva de IA Generativa (**Google Antigravity e GitHub Copilot**) no ciclo de desenvolvimento: implementação de código, refatoração arquitetural, prototipagem rápida e automação de testes.
 *Stack: React, Vite, Python, Chrome Extensions, C#, TypeScript, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia

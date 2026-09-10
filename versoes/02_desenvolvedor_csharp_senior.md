@@ -9,7 +9,7 @@ Lages - SC - Brasil (Disponível para Remoto / Híbrido) | +55 49 92003-9560 | a
 
 Engenheiro de Software Backend Sênior especializado no ecossistema **.NET (C#, .NET Core, .NET 6/7/8)** com **5+ anos de experiência comprovada** na construção de APIs de alta performance, serviços distribuídos e arquiteturas de missão crítica. Domínio avançado em **Clean Architecture, Domain-Driven Design (DDD), princípios SOLID e Design Patterns**, com histórico em concepção de arquiteturas **multi-tenant** com isolamento físico de bancos e roteamento dinâmico.
 
-Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (**Cosmos DB, Redis**). Experiência consistente em mentoria técnica de desenvolvedores (6 a 8 devs), automação de esteiras CI/CD no **Azure DevOps** e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (Google Antigravity, GitHub Copilot) para acelerar a engenharia de software e automações.
+Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL, tuning, stored procedures e views analíticas) e NoSQL/Cache (**Cosmos DB, Redis**). Experiência consistente em mentoria técnica de desenvolvedores (6 a 8 devs), automação de esteiras CI/CD no **Azure DevOps** e ganhos expressivos de performance (redução de 40% em tempo de resposta de queries e otimização de gargalos de 1min+ para 20s). Certificado oficialmente pela Microsoft em C# (Exam 483). Integra ativamente ferramentas de IA Generativa de ponta (Google Antigravity, GitHub Copilot) aplicadas diretamente na escrita de código, arquitetura e automações.
 
 **Principais Competências:** C# (.NET 6/7/8 / .NET Core) · ASP.NET Core Web API · Entity Framework Core · SQL Server (T-SQL, Tuning) · Multi-tenancy · Identity Server & OpenIddict · Hangfire · Azure DevOps (CI/CD) · DDD & Clean Architecture · xUnit / NUnit / Moq · Redis · Application Insights
 
@@ -23,7 +23,7 @@ Sólida vivência em banco de dados relacional **SQL Server** (modelagem, T-SQL,
 - Desenvolvimento de landing page de vendas com **React e Vite**, focando em alta performance e integração com serviços modernos.
 - Desenvolvimento de **extensão de navegador** (Chrome Extension) voltada para automação web e gestão dinâmica de sessões e cookies.
 - Criação de scripts e módulos em **Python** para processamento automatizado, leitura e extração de conteúdo de livros e documentos digitais.
-- Utilização intensiva de ferramentas de IA Generativa (**Google Antigravity e GitHub Copilot**) para acelerar o ciclo de desenvolvimento, prototipagem de soluções e testes de código.
+- Utilização intensiva de IA Generativa (**Google Antigravity e GitHub Copilot**) no ciclo de desenvolvimento: implementação de código, refatoração de serviços, prototipagem ágil de soluções e testes.
 *Stack: React, Vite, Python, C#, Chrome Extensions, Google Antigravity, GitHub Copilot.*
 
 ### Desenvolvedor Fullstack Sênior — Positivo Tecnologia
