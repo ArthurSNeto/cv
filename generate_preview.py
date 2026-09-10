@@ -19,12 +19,10 @@ for v_id, fname, label, pdf_name in versions_info:
     html_content = markdown.markdown(md_text, extensions=['tables', 'nl2br'])
     
     # Inject page break before Dragon / mid-experience to guarantee clean 2-page split
-    # Dragon is the 4th experience
     target_heading = "<h3>Desenvolvedor de Software — PrintWayy (Sistema Dragon)</h3>"
     if target_heading in html_content:
         html_content = html_content.replace(target_heading, f'<div class="page-break"></div>\n{target_heading}')
     elif "PrintWayy (Sistema Dragon)" in html_content:
-        # Fallback if markdown generated slightly different header
         idx = html_content.find("PrintWayy (Sistema Dragon)")
         h3_start = html_content.rfind("<h3", 0, idx)
         if h3_start != -1:
@@ -37,12 +35,6 @@ for v_id, fname, label, pdf_name in versions_info:
   <meta charset="UTF-8">
   <title>{label} - Arthur Santos Neto</title>
   <link rel="stylesheet" href="../templates/style.css">
-  <style>
-    .page-break {{ page-break-before: always; break-before: page; }}
-    @media print {{
-      .page-break {{ page-break-before: always; break-before: page; }}
-    }}
-  </style>
 </head>
 <body>
   <div class="toolbar no-print">
@@ -50,13 +42,23 @@ for v_id, fname, label, pdf_name in versions_info:
       <span>{label} — Arthur Santos Neto</span>
     </div>
     <div class="toolbar-actions">
-      <span style="font-size: 12px; color: #94a3b8;">Dica de impressão: Margens Mínimas / A4</span>
       <button class="btn-print" onclick="window.print()">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
         Salvar em PDF / Imprimir
       </button>
     </div>
   </div>
+
+  <div class="no-print instruction-card">
+    <strong style="font-size: 13.5px; display: block; margin-bottom: 4px; color: #92400e;">⚠️ Como remover o cabeçalho e rodapé (Data, URL, Título e Página 1/2):</strong>
+    <ol style="margin-left: 20px; line-height: 1.5; font-size: 12.5px; color: #78350f;">
+      <li>Na janela de impressão (Ctrl+P), clique em <strong>"Mais definições"</strong> (<em>More settings</em>).</li>
+      <li><strong>DESMARQUE</strong> a opção <strong>"Cabeçalhos e rodapés"</strong> (<em>Headers and footers</em>).</li>
+      <li><strong>MARQUE</strong> a opção <strong>"Gráficos de segundo plano"</strong> (<em>Background graphics</em>).</li>
+      <li>Em <strong>Margens</strong>, escolha <strong>"Mínimas"</strong> ou <strong>"Personalizadas"</strong>.</li>
+    </ol>
+  </div>
+
   <div class="cv-container">
     {html_content}
   </div>
@@ -83,12 +85,6 @@ preview_html = f"""<!DOCTYPE html>
   <meta charset="UTF-8">
   <title>Arthur Santos Neto - Visualizador de Currículos</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .page-break {{ page-break-before: always; break-before: page; }}
-    @media print {{
-      .page-break {{ page-break-before: always; break-before: page; }}
-    }}
-  </style>
 </head>
 <body>
   <header class="toolbar no-print">
@@ -111,8 +107,15 @@ preview_html = f"""<!DOCTYPE html>
     </div>
   </header>
 
-  <div class="no-print" style="max-width: 210mm; margin: 12px auto -10px auto; background: #e0f2fe; border-left: 4px solid #0284c7; padding: 10px 14px; border-radius: 4px; font-size: 12px; color: #0369a1;">
-    💡 <strong>Dica de exportação para PDF perfeito:</strong> No menu de impressão do Chrome/Edge (Ctrl+P), selecione <em>Destino: Salvar como PDF</em>, <em>Tamanho do papel: A4</em>, <em>Margens: Mínimas ou Personalizadas</em> e marque <em>Gráficos de segundo plano</em>.
+  <div class="no-print instruction-card">
+    <strong style="font-size: 13.5px; display: block; margin-bottom: 4px; color: #92400e;">💡 Como remover o cabeçalho e rodapé do navegador (Data, URL e Página 1/2):</strong>
+    <ol style="margin-left: 20px; line-height: 1.5; font-size: 12.5px; color: #78350f;">
+      <li>Ao clicar em <strong>Salvar em PDF</strong> (ou pressionar <strong>Ctrl+P</strong>), expanda o menu <strong>"Mais definições"</strong> (<em>More settings</em>).</li>
+      <li><strong>DESMARQUE</strong> a caixinha <strong>"Cabeçalhos e rodapés"</strong> (<em>Headers and footers</em>). Isso remove a data/título no topo e a URL/página no rodapé!</li>
+      <li><strong>MARQUE</strong> a caixinha <strong>"Gráficos de segundo plano"</strong> (<em>Background graphics</em>) para manter as cores e linhas.</li>
+      <li>Em <strong>Margens</strong>, selecione <strong>"Mínimas"</strong> ou <strong>"Personalizadas"</strong> (para encaixar perfeitamente em 2 páginas).</li>
+    </ol>
+    <div style="margin-top: 6px; font-size: 11.5px; color: #b45309;">✨ <em>O navegador memoriza essa configuração automaticamente para as próximas impressões.</em></div>
   </div>
 
   {''.join(sections_html)}
@@ -142,4 +145,4 @@ preview_html = f"""<!DOCTYPE html>
 with open(os.path.join("templates", "preview_cv.html"), "w", encoding="utf-8") as f:
     f.write(preview_html)
 
-print("Generated templates/preview_cv.html and standalone HTMLs successfully.")
+print("Regenerated preview_cv.html and standalone HTML files successfully.")
